@@ -1,0 +1,11 @@
+$box_shadow: 0 1px 3px rgba(0, 0, 0, 0.12), 0 1px 2px rgba(0, 0, 0, 0.24);
+$box_shadow_hover: 0 3px 6px rgba(0, 0, 0, 0.16), 0 3px 6px rgba(0, 0, 0, 0.23);
+$box_shadow_active: 0 10px 20px rgba(0, 0, 0, 0.19),
+  0 6px 6px rgba(0, 0, 0, 0.23);
+$box_shadow_focus: 0 0 0 3px rgba(66, 153, 225, 0.5);
+$box_shadow_focus_invalid: 0 0 0 3px rgba(220, 53, 69, 0.5);
+$box_shadow_focus_valid: 0 0 0 3px rgba(40, 167, 69, 0.5);
+$box_shadow_focus_warning: 0 0 0 3px rgba(255, 193, 7, 0.5);
+$box_shadow_focus_info: 0 0 0 3px rgba(23, 162, 184, 0.5);
+$box_shadow_focus_light: 0 0 0 3px rgba(248, 249, 250, 0.5);
+$default-box-shadow: 0px 4px 40px rgba(6, 37, 57, 0.1);

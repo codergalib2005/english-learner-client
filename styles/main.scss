@@ -1,0 +1,36 @@
+*,
+*::after,
+*::before {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+html,
+body {
+  font-family: "Roboto", sans-serif;
+  font-size: 16px;
+  line-height: 1.5;
+}
+
+// IMPORT FROM COMMON FOLDER
+@import "./common/colors";
+@import "./common/font-family";
+@import "./common/font-size";
+@import "./common/font-weight";
+@import "./common/shadow";
+
+// IMPORT FROM COMPONENTS FOLDER
+@import "./components/shared/header";
+@import "./components/shared/footer";
+
+// IMPORT FROM LAYOUT FOLDER
+@import "./layout/homeLayout";
+
+// IMPORT INFORMATION SIDEBAR
+@import "./components/shared/informationsidebar/informationsidebar";
+@import "./components/shared/adssidebar/adssidebar";
+
+/* -----------------------------------------
+-------------Home Layout Page---------------
+------------------------------------------- */
+@import "./pages/home";
