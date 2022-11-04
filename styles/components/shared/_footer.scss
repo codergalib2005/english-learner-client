@@ -71,8 +71,16 @@
         list-style: none;
         & li {
           width: 40px;
-          font-size: $text-extra-large;
+          margin: 3px;
+          padding: 3px;
+          border-radius: 4px;
+          display: flex;
+          align-items: center;
+          justify-content: center;
+          font-size: $text-extra-medium;
           font-weight: $font-600;
+          background: $color-bright-gray;
+          color: $color-primary_color;
         }
       }
     }
