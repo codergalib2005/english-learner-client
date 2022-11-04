@@ -5,11 +5,11 @@
     margin-top: 7px;
     .tab_btn {
         margin: 4px;
-        padding: 4px 7px;
+        padding: 4px 10px;
         cursor: pointer;
         border-radius: 15px;
         background: $color-white;
-        border: 1.5px solid $color-black;
+        border: .5px solid $color-black;
         transition: .3s;
     }
     .active_tab_btn {
