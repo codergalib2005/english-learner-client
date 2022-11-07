@@ -1,6 +1,8 @@
 import Head from "next/head";
+import { useState } from "react";
 
 export default function Header() {
+  const [open, setOpen] = useState(false);
   return (
     <>
       <Head>
@@ -37,6 +39,9 @@ export default function Header() {
           </div>
         </div>
         <a href="#">Contact</a>
+        <div className="icon">
+          <a onClick={() => setOpen(!open)}>&#9776;</a>
+        </div>
       </nav>
     </>
   );
