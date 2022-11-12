@@ -35,3 +35,8 @@ body {
 -------------Home Layout Page---------------
 ------------------------------------------- */
 @import "./pages/home";
+@import "./components/shared/carts";
+
+//Number Sign In
+@import "./components/numberSignIn/number";
+@import "./components/numberSignIn/otp";

@@ -1,0 +1,87 @@
+.container {
+  height: 600px;
+  padding: 50px 0;
+  //   background: $color_accent_text;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  .login_form {
+    margin: 0 auto;
+    width: 450px;
+    background: $color_white;
+    padding: 25px;
+    border-radius: 10px;
+    box-shadow: $box_shadow_active;
+    .form-info {
+      text-align: center;
+      & h5 {
+        margin-top: 0;
+        margin-bottom: 0.5rem;
+        font-weight: $font-500;
+        font-size: $text-headline-size;
+        line-height: 1.2;
+      }
+      & p {
+        font-size: $text-base;
+        color: $color_divider;
+      }
+    }
+    .form {
+      margin-top: 10px;
+      .user_number {
+        margin-bottom: 20px;
+        .form-label {
+          display: block;
+          font-weight: 500;
+          margin-bottom: 0.5rem;
+        }
+        .PhoneInputInput {
+          display: block;
+          width: 100%;
+          padding: 10px;
+          margin-left: -15px;
+          border-left: none;
+          outline: none;
+          border-radius: 0 5px 5px 0;
+        }
+        .PhoneInputCountry {
+          background: $color-light-gary;
+          padding: 5px 10px;
+          font-size: 30px;
+          border-radius: 5px 0 0 5px;
+        }
+        .form_forgot_pass {
+          display: inline;
+        }
+      }
+      .form_btn {
+        width: 100%;
+        background: $color-blueberry;
+        color: $color_white;
+        border: none;
+        border-radius: 5px;
+        padding: 13px;
+        margin-top: 10px;
+      }
+    }
+    .form_authentication {
+      text-align: center;
+      margin-top: 20px;
+      & span {
+        font-size: $text-small;
+        color: $color-secondary-text;
+      }
+      .form_icon {
+        font-size: $text-extra-extra-headline-size;
+        padding: 10px;
+        margin: 20px 10px 0 10px;
+        border-radius: 5px;
+        color: $color_white;
+      }
+    }
+  }
+  .sign_up {
+    text-align: center;
+    margin-top: 30px;
+  }
+}
