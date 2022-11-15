@@ -28,9 +28,17 @@ body {
 
 // IMPORT INFORMATION SIDEBAR
 @import "./components/shared/informationsidebar/informationsidebar";
+@import "./components/shared/informationsidebar/informationTabs";
 @import "./components/shared/adssidebar/adssidebar";
 
 /* -----------------------------------------
 -------------Home Layout Page---------------
 ------------------------------------------- */
 @import "./pages/home";
+@import "./components/shared/carts";
+@import "./pages/numberSignIn/number";
+@import "./pages/numberSignIn/otp";
+
+
+//Number Sign In
+

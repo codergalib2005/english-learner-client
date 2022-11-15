@@ -17,4 +17,28 @@
   &::-webkit-scrollbar-thumb:hover {
     background: $color-tiffany-blue;
   }
+  .information_link {
+    text-decoration: none;
+  }
+  .information_btn {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: start;
+    border: none;
+    padding: 17px 5px;
+    background: none;
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: $text-large;
+    font-weight: $font-700;
+    transition: .5s;
+    & span {
+      margin-left: 13px;
+      list-style: none;
+    }
+  }
+  .information_btn:hover {
+    background: $color-bright-gray;
+  }
 }

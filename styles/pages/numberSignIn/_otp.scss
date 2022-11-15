@@ -1,0 +1,26 @@
+.user_form {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    .otp_input {
+    width: 40px;
+    height: 40px;
+    margin: 10px;
+    color: $color-black !important;
+    padding: 5px;
+    outline: none;
+    border: none;
+    border-bottom: 2px solid $color-blueberry;
+    & input {
+      width: 2em !important;
+      height: 2rem;
+      text-align: center !important;
+      outline: none;
+      border: none;
+      color: $color-black !important;
+      margin: -5px;
+      font-size: 20px;
+      padding: 1px;
+    }
+}
+}

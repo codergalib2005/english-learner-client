@@ -1,4 +1,9 @@
 .header_parent_class {
   background: red;
   color: white;
+  .header_link {
+    color: $color-white;
+    font-size: $text-base;
+    margin-left: 20px;
+  }
 }

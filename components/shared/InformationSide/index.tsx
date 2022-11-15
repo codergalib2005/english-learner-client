@@ -1,7 +1,19 @@
+import Link from "next/link";
+import InformationTabs from "./InformationTabs";
+import {ImHome} from "react-icons/im";
+
 export default function InformationSide() {
+
     return (
         <div className="information_sidebar">
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Officia dolor sunt enim quos! Nobis perferendis cupiditate aspernatur quibusdam non facilis recusandae voluptatum velit, dolorum suscipit. Molestias laudantium ratione minus aut? Quidem, corrupti at veniam voluptas dolorum iure facere sunt voluptatibus accusamus asperiores a dicta magni pariatur repudiandae est ullam libero aut officiis magnam placeat consequuntur quia? Quidem ea reiciendis amet doloremque itaque tempore rem molestias veniam minus dolorum ad maxime aut aliquid mollitia dolor, explicabo, quibusdam provident neque in dignissimos! Fugit, suscipit, cupiditate modi fugiat cum sunt dolorum magnam quo, placeat similique voluptate! Libero porro delectus reprehenderit accusamus recusandae. Aperiam numquam, nam excepturi minima voluptatibus, corporis repudiandae iste maxime sequi pariatur possimus, exercitationem provident atque. Corporis harum quas doloribus iure cumque consectetur saepe totam quae. Iste reiciendis optio nemo sunt, eaque dicta esse ex facere. Laboriosam deserunt officia repellat, commodi sit possimus iure incidunt dignissimos quis necessitatibus unde? Vero possimus nisi rem voluptate rerum laudantium unde sequi autem alias! Earum repellat sed expedita quis neque molestias dicta at officia. Voluptatibus eum perspiciatis libero repellat iste? Eum possimus sint corporis temporibus culpa, mollitia necessitatibus corrupti suscipit blanditiis excepturi officiis. Labore, vel. Qui nulla, ex magni neque est totam tempora consequuntur accusamus nisi, provident deserunt expedita eius soluta magnam placeat harum unde esse corporis rerum commodi? Corrupti cum minus error aperiam fuga rerum asperiores, consequatur laudantium beatae aliquid impedit ex, possimus sint repellendus tenetur commodi cumque animi. Facere, quae omnis deserunt unde blanditiis, quaerat quasi perspiciatis, vel ipsum nobis eligendi ab doloribus.
+            <Link className="information_link" href="/">
+            <button className="information_btn">
+                <ImHome />
+                <span>Home</span>
+            </button>
+            </Link>
+            <hr />
+            <InformationTabs />
         </div>
     )
 }
