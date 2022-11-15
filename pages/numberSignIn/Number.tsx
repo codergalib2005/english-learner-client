@@ -5,7 +5,7 @@ import Link from "next/link";
 import React from 'react';
 
 interface userNumber {
-  number: string | "";
+  number: string;
 }
 
 const Number: React.FC = () => {
