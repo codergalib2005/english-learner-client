@@ -21,7 +21,6 @@ const OTP: React.FC = () => {
           <label className="form-label">Enter verification code</label>
           <div className="user_form">
             <OtpInput
-              className="otp_input"
               value={value.otpNumber}
               onChange={(e: string) => setValue({ otpNumber: e })}
               numInputs={5}
