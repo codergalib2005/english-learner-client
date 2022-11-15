@@ -8,8 +8,8 @@ const InformationTabs: React.FC = () => {
   const active = router.query.tabs;
   return (
     <div className="information_tabs">
-      {tabs.map((tab) => (
-        <Link href={`/?tabs=${tab}`} key={tab}>
+      {tabs.map((tab, index) => (
+        <Link href={`/?tabs=${tab}`} key={index}>
           <button
             className={
               active === tab.toLocaleLowerCase() ? "active_tab_btn" : "tab_btn"
