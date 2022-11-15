@@ -4,8 +4,9 @@ import { TfiInstagram } from "react-icons/tfi";
 import { SlSocialLinkedin } from "react-icons/sl";
 import { TbBrandTwitter } from "react-icons/tb";
 import { AiOutlineYoutube } from "react-icons/ai";
+import React from "react";
 
-export default function Footer() {
+const Footer: React.FC = () => {
   return (
     <div className="footer_parent_class">
       <div className="footer_parent_content">
@@ -51,4 +52,5 @@ export default function Footer() {
       </div>
     </div>
   );
-}
+};
+export default Footer;

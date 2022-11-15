@@ -1,7 +1,7 @@
 import Head from "next/head";
-import { useState } from "react";
+import React, { useState } from "react";
 
-export default function Header() {
+const Header: React.FC = () => {
   const [open, setOpen] = useState(false);
   return (
     <>
@@ -45,4 +45,5 @@ export default function Header() {
       </nav>
     </>
   );
-}
+};
+export default Header;

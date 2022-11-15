@@ -1,8 +1,9 @@
 import Link from "next/link";
 import { useRouter } from "next/router";
+import React from "react";
 import { tabs } from "../../../fakeData/tabs";
 
-export default function InformationTabs() {
+const InformationTabs: React.FC = () => {
   const router = useRouter();
   const active = router.query.tabs;
   return (
@@ -20,4 +21,6 @@ export default function InformationTabs() {
       ))}
     </div>
   );
-}
+};
+
+export default InformationTabs;

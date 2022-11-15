@@ -68,6 +68,20 @@
   dependencies:
     "react-icons" "*"
 
+"@types/react-otp-input@^2.0.1":
+  "integrity" "sha512-fhkO7N/rds9cJAhY2gpeE7kLK3hCvRD+t5KmIKk4zAGoGd1RCbSAir/pXTDwWdh8Pt87h2aarDzuqmZymxXZ4g=="
+  "resolved" "https://registry.npmjs.org/@types/react-otp-input/-/react-otp-input-2.0.1.tgz"
+  "version" "2.0.1"
+  dependencies:
+    "@types/react" "*"
+
+"@types/react-phone-number-input@^3.0.14":
+  "integrity" "sha512-xOje1m+Z9n3kxj5/bCJzpDeokA95aYYuFbmcK8myyod+KLy3h5tKwCQwSEcU+603EeyfgTMkjz7GYY9S0aZLCQ=="
+  "resolved" "https://registry.npmjs.org/@types/react-phone-number-input/-/react-phone-number-input-3.0.14.tgz"
+  "version" "3.0.14"
+  dependencies:
+    "@types/react" "*"
+
 "@types/react@*", "@types/react@^16.8 || ^17.0 || ^18.0", "@types/react@18.0.24":
   "integrity" "sha512-wRJWT6ouziGUy+9uX0aW4YOJxAY0bG6/AOk5AW5QSvZqI7dk6VBIbXvcVgIw/W5Jrl24f77df98GEKTJGOLx7Q=="
   "resolved" "https://registry.npmjs.org/@types/react/-/react-18.0.24.tgz"

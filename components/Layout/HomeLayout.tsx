@@ -2,11 +2,12 @@ import InformationSide from '../shared/InformationSide';
 import AddsSide from '../shared/AddsSide';
 import Footer from '../shared/Footer/Footer';
 import Header from '../shared/Header/Header';
+import React from 'react';
 
 type layoutChildren = {
     children: React.ReactNode;
 };
-export default function HomeLayout({ children }: layoutChildren) {
+const HomeLayout = ({ children }: layoutChildren) => {
     return (
         <div className='home_layout_main_wrapper' >
             {/* Keyword Side or Left Side */}
@@ -31,3 +32,4 @@ export default function HomeLayout({ children }: layoutChildren) {
         </div >
     )
 }
+export default HomeLayout;
