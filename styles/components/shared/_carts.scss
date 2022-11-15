@@ -8,8 +8,9 @@
   display: grid;
   grid-template-columns: auto auto auto;
   row-gap: 50px;
+
   .cart {
-    position: relative;
+    // position: relative;
     background: $color-white;
     margin: 10px;
     padding: 70px 20px;
@@ -20,7 +21,7 @@
     border-bottom: 5px solid $color-blue;
     .cart-link {
       text-decoration: none;
-      transition: .7s;
+      transition: 0.7s;
     }
     .cart-link:hover {
       color: $color-blue;
@@ -44,28 +45,28 @@
       line-height: 26px;
       margin: 0 0 20px;
     }
-    .cart-img {
-      position: absolute;
-      top: -30px;
-      width: 60px;
-      height: 60px;
-      padding: 10px;
-      margin-left: -28px;
-      border-radius: 100px;
-      background: $color-blueberry;
-    }
     .img-ring {
-      position: absolute;
-      top: -39px;
-      width: 60px;
-      height: 60px;
-      padding: 35px;
-      margin-left: 43px;
-      z-index: 10;
-      border-radius: 100px;
-      border: 4px solid $color-blue;
-      opacity: 0;
-      transition: .7s;
+      position: relative;
+      top: -28px;
+      width: 80px;
+      height: 80px;
+      border: 4px solid transparent;
+      margin: 0 auto;
+      border-radius: 50%;
+      transition: 0.7s;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      &:hover {
+        border: 4px solid $color-blue;
+      }
+      .cart-img {
+        width: 60px;
+        height: 60px;
+        padding: 10px;
+        border-radius: 50%;
+        background: $color-blueberry;
+      }
     }
   }
 }
