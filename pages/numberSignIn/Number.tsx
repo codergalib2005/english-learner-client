@@ -12,6 +12,7 @@ export default function Number() {
   console.log(value);
   return (
     <div className="container">
+      <div className="shape"></div>
       <div className="login_form">
         <div className="form-info">
           <h5>Welcome Back !</h5>
