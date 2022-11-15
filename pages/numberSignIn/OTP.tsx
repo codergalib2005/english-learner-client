@@ -3,7 +3,7 @@ import React, { useState } from "react";
 import OtpInput from "react-otp-input";
 
 interface userNumber {
-  otpNumber: string | undefined;
+  otpNumber: string | "";
 }
 
 const OTP: React.FC = () => {
