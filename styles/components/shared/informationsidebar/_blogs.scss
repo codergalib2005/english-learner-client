@@ -1,4 +1,4 @@
-.help_component_informationSide {
+.blog_component_informationSide {
   margin: 3rem 0px;
 
   span {
@@ -6,10 +6,9 @@
     font-size: $text-base;
   }
 
-  .help_component_sub_child_div {
+  .blog_component_sub_child_div {
     display: flex;
-    justify-content: space-between;
-    align-items: center;
+    text-align: start;
     gap: 3rem;
     padding: 8px 12px;
     margin: 10px 0px;
@@ -21,7 +20,7 @@
       cursor: pointer;
     }
 
-    .help_component_texts {
+    .blog_component_texts {
       h6 {
         font-size: $text-medium;
         opacity: 75%;
@@ -37,7 +36,7 @@
     }
   }
 
-  .help_component_image {
+  .blog_component_image {
     display: flex;
     justify-content: center;
     align-items: center;

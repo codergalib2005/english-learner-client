@@ -25,15 +25,15 @@ const Blogs = () => {
     },
   ];
   return (
-    <div className="help_component_informationSide">
+    <div className="blog_component_informationSide">
       <span>Blogs</span>
       {blogs.map((blog) => (
-        <div key={blog.id} className="help_component_sub_child_div">
-          <div className="help_component_texts">
+        <div key={blog.id} className="blog_component_sub_child_div">
+          <div className="blog_component_texts">
             <h6>{blog.title}</h6>
             <p>{blog.description}</p>
           </div>
-          <div className="help_component_image">
+          <div className="blog_component_image">
             <img src={blog.image} />
           </div>
         </div>
