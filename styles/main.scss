@@ -36,7 +36,9 @@ body {
 ------------------------------------------- */
 @import "./pages/home";
 @import "./components/shared/carts";
+@import "./pages/numberSignIn/number";
+@import "./pages/numberSignIn/otp";
+
 
 //Number Sign In
-@import "./components/numberSignIn/number";
-@import "./components/numberSignIn/otp";
+

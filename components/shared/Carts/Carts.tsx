@@ -1,8 +1,9 @@
 import Image from "next/image";
 import Link from "next/link";
+import React from "react";
 import { services } from "../../../fakeData/services";
 
-export default function Carts() {
+const Carts: React.FC = () => {
   return (
     <div className="carts">
       {services.map((service) => (
@@ -24,4 +25,5 @@ export default function Carts() {
       ))}
     </div>
   );
-}
+};
+export default Carts;
