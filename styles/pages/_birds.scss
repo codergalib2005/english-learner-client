@@ -1,0 +1,41 @@
+.birds_pages {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  .birds_pages_info {
+    width: 100%;
+    padding: 30px;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+    gap: 24px;
+    .birds_card {
+      box-shadow: $box_shadow_active;
+      height: 100%;
+      padding-bottom: 13px;
+      border-radius: 4px;
+      .card_img {
+        width: 100%;
+        border-radius: 4px 4px 0 0;
+      }
+      h3 {
+        font-size: 17px;
+        font-weight: 700;
+        letter-spacing: 1px;
+        margin: 0 auto;
+        text-align: center;
+        width: 100px;
+        border-radius: 4px;
+        background: $color-blueberry;
+        color: $color-primary_color;
+        box-shadow: $box_shadow_active;
+      }
+    }
+  }
+  .addsSide {
+    background: $color-maastricht-Blue;
+    color: white;
+    width: 100%;
+    max-width: 200px;
+    height: 100vh;
+  }
+}

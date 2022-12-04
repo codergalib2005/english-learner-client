@@ -7,7 +7,7 @@ const Carts: React.FC = () => {
   return (
     <div className="carts">
       {services.map((service) => (
-        <div className="cart">
+        <div key={service.id} className="cart">
           <Link className="cart-link" href="/">
             <div className="img-ring">
             <Image
