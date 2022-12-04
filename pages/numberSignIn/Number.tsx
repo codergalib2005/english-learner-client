@@ -9,7 +9,6 @@ interface userNumber {
 
 export default function Number() {
   const [value, setValue] = useState<userNumber>({ number: "" });
-  console.log(value);
   return (
     <div className="container">
       <div className="shape"></div>
@@ -22,7 +21,6 @@ export default function Number() {
           <div className="user_number">
             <label className="form-label">User Number</label>
             <PhoneInput
-              className="form-input"
               international
               countryCallingCodeEditable={false}
               defaultCountry="BD"
