@@ -30,6 +30,8 @@ body {
 @import "./components/shared/informationsidebar/informationsidebar";
 @import "./components/shared/informationsidebar/informationTabs";
 @import "./components/shared/adssidebar/adssidebar";
+@import "./components/shared/informationsidebar/help";
+@import "./components/shared/informationsidebar/blogs";
 
 /* -----------------------------------------
 -------------Home Layout Page---------------
@@ -39,6 +41,4 @@ body {
 @import "./pages/numberSignIn/number";
 @import "./pages/numberSignIn/otp";
 
-
 //Number Sign In
-
