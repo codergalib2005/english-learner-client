@@ -2,8 +2,10 @@ import Link from "next/link";
 import InformationTabs from "./InformationTabs";
 import { ImHome } from "react-icons/im";
 import React from "react";
-import Blogs from "./Blogs";
+
 import Help from "./Help";
+import Blogs from "./Blogs";
+import Links from "./Links";
 
 const InformationSide: React.FC = () => {
   return (
@@ -18,6 +20,7 @@ const InformationSide: React.FC = () => {
       <InformationTabs />
       <Blogs />
       <Help />
+      <Links />
     </div>
   );
 };

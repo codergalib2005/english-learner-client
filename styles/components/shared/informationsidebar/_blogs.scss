@@ -2,8 +2,10 @@
   margin: 3rem 0px;
 
   span {
-    color: $color-red;
     font-size: $text-base;
+    margin-bottom: 1rem;
+    font-family: $text-headline;
+    font-weight: $font-700;
   }
 
   .blog_component_sub_child_div {

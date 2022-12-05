@@ -1,12 +1,31 @@
 .help_component_information_side {
   .help_component_child {
     box-shadow: 2px 0px 0px 0px $color_divider;
-    padding: 8px 12px;
-    .help_link {
+    padding: 0px 12px;
+
+    .help_title {
+      font-size: $text-base;
+      margin-bottom: 1rem;
+      font-family: $text-headline;
+      font-weight: $font-700;
+    }
+    .help_link_div {
       display: flex;
       align-items: center;
       gap: 1rem;
       color: $color-blue;
+
+      .help_link {
+        color: $color-blue;
+        font-size: $text-base;
+        font-weight: 700;
+        &:hover {
+          color: green;
+        }
+        &:focus {
+          color: green;
+        }
+      }
     }
   }
 }
