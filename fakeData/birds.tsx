@@ -1,108 +1,108 @@
-import eagle from "../public/images/birds/eagle.jpg";
-import duck from "../public/images/birds/duck.jpg";
-import crow from "../public/images/birds/crow.jpg";
-import goose from "../public/images/birds/goose.jpg";
-import owl from "../public/images/birds/owl.jpg";
+import deer from "../public/images/animals/deer.png";
+import iata from "../public/images/animals/iata.jpg";
+import large from "../public/images/animals/large.jpg";
+import wild from "../public/images/animals/wild.jpg";
+import wiried from "../public/images/animals/wiried.jpg";
 
 export const birds = [
     {
         id: 1,
-        img: eagle,
-        name: "Eagle",
+        img: deer,
+        name: "Deer",
     },
     {
         id: 2,
-        img: duck,
-        name: "Duck",
+        img: iata,
+        name: "Iata",
     },
     {
         id: 3,
-        img: crow,
-        name: "Crow",
+        img: large,
+        name: "Large",
     },
     {
         id: 4,
-        img: goose,
-        name: "Goose",
+        img: wild,
+        name: "Wild",
     },
     {
         id: 5,
-        img: owl,
-        name: "Owl",
+        img: wiried,
+        name: "Wiried",
     },
     {
         id: 6,
-        img: crow,
-        name: "Crow",
+        img: large,
+        name: "Large",
     },
     {
         id: 7,
-        img: owl,
-        name: "Owl",
+        img: wiried,
+        name: "Wiried",
     },
     {
         id: 8,
-        img: goose,
-        name: "Goose",
+        img: wild,
+        name: "Wild",
     },
     {
         id: 9,
-        img: duck,
-        name: "Duck",
+        img: iata,
+        name: "Iata",
     },
     {
         id: 10,
-        img: eagle,
-        name: "Eagle",
+        img: deer,
+        name: "Deer",
     },
     {
         id: 11,
-        img: crow,
-        name: "Crow",
+        img: large,
+        name: "Large",
     },
     {
         id: 12,
-        img: goose,
-        name: "Goose",
+        img: wild,
+        name: "Wild",
     },
     {
         id: 13,
-        img: owl,
-        name: "Owl",
+        img: wiried,
+        name: "Wiried",
     },
     {
         id: 14,
-        img: duck,
-        name: "Duck",
+        img: iata,
+        name: "Iata",
     },
     {
         id: 15,
-        img: eagle,
-        name: "Englisr",
+        img: deer,
+        name: "Deer",
     },
     {
         id: 16,
-        img: crow,
-        name: "Crow",
+        img: large,
+        name: "Large",
     },
     {
         id: 17,
-        img: duck,
-        name: "Duck",
+        img: iata,
+        name: "Ita",
     },
     {
         id: 18,
-        img: goose,
-        name: "Goose",
+        img: wild,
+        name: "Wild",
     },
     {
         id: 19,
-        img: owl,
-        name: "Owl",
+        img: wiried,
+        name: "Wiried",
     },
     {
         id: 20,
-        img: duck,
-        name: "Duck",
+        img: iata,
+        name: "Iata",
     },
 ]
