@@ -1,59 +1,89 @@
 import Image from "next/image";
 import Header from "../components/shared/Header/Header";
-import { birds } from "../fakeData/birds";
-import { IoIosArrowDown } from "react-icons/io";
-import { IoIosArrowBack } from "react-icons/io";
-import { IoIosArrowForward } from "react-icons/io";
+import { motion } from 'framer-motion';
+import { useGetBirdsQuery } from "../redux/feature/birds/birdApi";
+import ReactPaginate from 'react-paginate';
+import { useRouter } from 'next/router';
+
 
 const Birds: React.FC = () => {
+  const router = useRouter()
+  const { page, limit } = router.query || {};
+  const { data, isSuccess, isLoading, isError } = useGetBirdsQuery({ page: page || 1, limit: limit || 20 })
+
+  const handlePageClick = (e: any) => {
+    if (limit) {
+      router.push(`/birds?page=${e.selected + 1}&limit=${limit}`)
+    } else {
+      router.push(`/birds?page=${e.selected + 1}`)
+    }
+  };
+  const changeLimit = (e: any) => {
+    if (page) {
+      router.push(`/birds?page=${page}&limit=${e.target.value}`)
+    } else {
+      router.push(`/birds?limit=${e.target.value}`)
+    }
+  }
+
+  let content = null
+  if (isLoading) content = <div>loading</div>
+  if (isError) content = <div>error</div>
+  if (isSuccess && data?.birds?.length === 0) content = <div>no data</div>
+  if (isSuccess && data?.birds?.length > 0) {
+    content = <div>
+      <div className="birds_pages_info">
+        {data.birds.map((bird: any) => (
+          <motion.div
+            key={bird._id}
+            whileDrag={{ scale: 1.1 }}
+            whileHover={{ scaleY: 1.1 }}
+            whileTap={{ scale: 0.8 }}
+            initial={{ opacity: 0 }}
+            animate={{ opacity: 1 }}
+            transition={{ duration: 0.5 }}
+            className="birds_card">
+            <Image
+              className="card_img"
+              src={bird.image}
+              alt={bird.name}
+              width={100}
+              height={100}
+            />
+            <h3>{bird.name}</h3>
+          </motion.div>
+        ))}
+      </div>
+    </div>
+  }
+
   return (
     <div>
       <Header />
       <div className="birds_pages">
-        <div className="birds">
-          <div className="birds_pages_info">
-            {birds.map((bird) => (
-              <div key={bird.id} className="birds_card">
-                <Image
-                  className="card_img"
-                  src={bird.img}
-                  alt=""
-                  width={100}
-                  height={100}
-                />
-                <h3>{bird.name}</h3>
-              </div>
-            ))}
-          </div>
+        <div style={{ width: '100%' }} className="birds">
+          {content}
           <div className="birds_paginations">
-            <div className="birds_pagination_counter">
-              <span>
-                <IoIosArrowBack />
-              </span>
-              <span>1</span>
-              <span>2</span>
-              <span>3</span>
-              <span>4</span>
-              <span>5</span>
-              <span>6</span>
-              <span>7</span>
-              <span>8</span>
-              <span>9</span>
-              <h5>.....</h5>
-              <span>110</span>
-              <span>
-                <IoIosArrowForward />
-              </span>
+            <div className="birds_pagination_counter noselect">
+              <ReactPaginate
+                breakLabel="..."
+                nextLabel="Next →"
+                onPageChange={handlePageClick}
+                pageRangeDisplayed={5}
+                pageCount={data?.totalPages}
+                previousLabel="← Previous"
+              // renderOnZeroPageCount={null}
+              />
             </div>
             <div className="pagination_result">
-                <select name="birds_count" id="">
-                  <option value="1">1</option>
-                  <option value="2">2</option>
-                  <option value="3">3</option>
-                  <option value="4">4</option>
-                  <option value="5">5</option>
-                </select>
-              <p>Results: 1-5 of 324</p>
+              <select defaultValue={20} disabled={!(isSuccess && data?.birds?.length > 0)} onChange={e => changeLimit(e)} name="birds_count" id="">
+                <option value="20">20</option>
+                <option value="40">40</option>
+                <option value="60">60</option>
+                <option value="80">80</option>
+                <option value="100">100</option>
+              </select>
+              <p>Results: {data?.currentPage}-{limit || 20} of {data?.totalBirds || "00"}</p>
             </div>
           </div>
         </div>

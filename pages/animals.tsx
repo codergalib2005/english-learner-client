@@ -4,6 +4,7 @@ import { birds } from "../fakeData/birds";
 import { IoIosArrowDown } from "react-icons/io";
 import { IoIosArrowBack } from "react-icons/io";
 import { IoIosArrowForward } from "react-icons/io";
+import { motion } from 'framer-motion';
 
 /* --------------------------------------------------------
 -------------Style uses from _bird.scss file---------------
@@ -17,16 +18,23 @@ const Animals: React.FC = () => {
         <div className="birds">
           <div className="birds_pages_info">
             {birds.map((bird) => (
-              <div key={bird.id} className="birds_card">
+              <motion.div
+                whileDrag={{ scale: 1.1 }}
+                whileHover={{ scaleY: 1.1 }}
+                whileTap={{ scale: 0.8 }}
+                initial={{ opacity: 0 }}
+                animate={{ opacity: 1 }}
+                transition={{ duration: 0.5 }}
+                key={bird.id} className="birds_card">
                 <Image
                   className="card_img"
-                  src={bird.img}
+                  src={bird.image}
                   alt=""
                   width={100}
                   height={100}
                 />
                 <h3>{bird.name}</h3>
-              </div>
+              </motion.div>
             ))}
           </div>
           <div className="birds_paginations">
@@ -50,13 +58,13 @@ const Animals: React.FC = () => {
               </span>
             </div>
             <div className="pagination_result">
-                <select name="birds_count" id="">
-                  <option value="1">1</option>
-                  <option value="2">2</option>
-                  <option value="3">3</option>
-                  <option value="4">4</option>
-                  <option value="5">5</option>
-                </select>
+              <select name="birds_count" id="">
+                <option value="1">1</option>
+                <option value="2">2</option>
+                <option value="3">3</option>
+                <option value="4">4</option>
+                <option value="5">5</option>
+              </select>
               <p>Results: 1-5 of 324</p>
             </div>
           </div>
