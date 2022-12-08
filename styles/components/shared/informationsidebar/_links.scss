@@ -1,0 +1,15 @@
+.links_component_information_side {
+  display: flex;
+  flex-wrap: wrap;
+  margin: 2rem 0rem;
+  padding: 0px 12px;
+
+  a {
+    text-decoration: none;
+    padding: 1px 6px;
+    border-radius: 50px;
+    color: $color-secondary-text;
+    font-size: $text-small;
+    text-decoration: underline;
+  }
+}
