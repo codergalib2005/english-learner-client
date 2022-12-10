@@ -1,11 +1,14 @@
 import { configureStore } from "@reduxjs/toolkit";
 import { apiSlice } from "../feature/api/apiSlice";
+import { birdApi } from "../feature/birds/birdApi";
 
 export const store = configureStore({
   reducer: {
     [apiSlice.reducerPath]: apiSlice.reducer,
+    birds: birdApi.reducer
   },
-  middleware: (getDefaultMiddleware) => getDefaultMiddleware().concat(apiSlice.middleware),
+  middleware: (getDefaultMiddleware) =>
+    getDefaultMiddleware().concat(apiSlice.middleware),
 });
 
 // Infer the `RootState` and `AppDispatch` types from the store itself

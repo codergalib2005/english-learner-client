@@ -1,5 +1,18 @@
 .game_card_carousel_component {
+  margin: auto;
+  padding: 2rem 0px;
+
   .mySwiper {
-    display: flex;
+    .game_img {
+      .game_img {
+        display: grid;
+        place-content: center;
+      }
+
+      .game_text {
+        display: grid;
+        place-content: center;
+      }
+    }
   }
 }

@@ -1,0 +1,120 @@
+.birds_pages {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  .birds {
+    .birds_pages_info {
+      width: 100%;
+      padding: 30px;
+      display: grid;
+      grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+      gap: 24px;
+      .birds_card {
+        box-shadow: 0px 1px 3px rgb(0 0 0 / 12%), 9px 8px 0px rgb(255 0 0 / 15%);
+        height: 100%;
+        padding-bottom: 13px;
+        border-radius: 4px;
+        .card_img {
+          width: 100%;
+          border-radius: 4px 4px 0 0;
+        }
+        h3 {
+          font-size: 20px;
+          font-weight: 500;
+          letter-spacing: 1px;
+          margin: 0 auto;
+          text-align: center;
+          width: 100px;
+          border-radius: 4px;
+          color: $color-primary_color;
+        }
+      }
+    }
+    .birds_paginations {
+      // width: 651px;
+      // border: 1px solid $color-blueberry;
+      padding: 20px;
+      .birds_pagination_counter {
+        display: flex;
+        align-items: center;
+        justify-content: flex-end;
+        ul {
+          display: flex;
+          flex-direction: row;
+          align-items: center;
+          background: white;
+          box-shadow: $box-shadow;
+          border-radius: 4px;
+          padding: 15px 20px;
+          li {
+            margin: 0 5px;
+            padding: 2px 7px;
+            width: 26px;
+            height: 26px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            font-size: 15px;
+            font-weight: 600;
+          }
+          li.selected {
+            background: #e83a3b !important;
+            background: white ;
+            a{
+              color: white;
+            } 
+            border-radius: 2px;
+          }
+          li.next,
+          li.previous {
+            width: auto;
+            height: auto;
+            display: flex;
+            font-size: 15px;
+            font-weight: 600;
+            align-items: center;
+            a {
+              background: none;
+              border: none;
+              outline: none;
+              cursor: pointer;
+              color: #333;
+              display: flex;
+              align-items: center;
+            }
+          }
+        }
+      }
+      span:nth-child(3) {
+        background: $color-blueberry;
+      }
+    }
+    .pagination_result {
+      display: flex;
+      flex-direction: row;
+      justify-content: flex-end;
+      align-items: center;
+      margin: 35px 0;
+      select {
+        width: 90px;
+        padding: 15px;
+        margin-right: 100px;
+        border-radius: 4px;
+        border: 1px solid $color_divider;
+        color: $color_divider;
+      }
+      p {
+        font-size: 15px;
+        font-weight: 500;
+        letter-spacing: 1px;
+        color: gray;
+      }
+    }
+  }
+}
+.addsSide {
+  // background: $color-maastricht-Blue;
+  color: $color-black;
+  width: 30%;
+  height: 100vh;
+}

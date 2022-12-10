@@ -1,16 +1,15 @@
 import { useState } from "react";
-import "react-phone-number-input/style.css";
+// import "react-phone-number-input/style.css";
 import PhoneInput from "react-phone-number-input";
 import Link from "next/link";
 import React from 'react';
 
 interface userNumber {
-  number: string;
+  number: string | undefined;
 }
 
 const Number: React.FC = () => {
   const [value, setValue] = useState<userNumber>({ number: "" });
-  console.log(value);
   return (
     <div className="container">
       <div className="shape"></div>
@@ -23,7 +22,6 @@ const Number: React.FC = () => {
           <div className="user_number">
             <label className="form-label">User Number</label>
             <PhoneInput
-              className="form-input"
               international
               countryCallingCodeEditable={false}
               defaultCountry="BD"

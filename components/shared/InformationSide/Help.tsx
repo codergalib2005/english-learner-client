@@ -34,8 +34,8 @@ const Help = () => {
     <div className="help_component_information_side">
       <div className="help_component_child">
         <p className="help_title">Helps</p>
-        {routes.map((x_route) => (
-          <div className="help_link_div">
+        {routes.map((x_route, index) => (
+          <div className="help_link_div" key={index}>
             <GoCheck />
             <a target="_blank" className="help_link" href={x_route.url}>
               {" "}
