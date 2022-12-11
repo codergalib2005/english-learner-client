@@ -13,8 +13,8 @@
 
   .game_card {
     border-radius: 5px;
-    max-height: 25rem;
-    width: 14rem;
+    height: 20rem;
+    width: 14.5rem;
     position: relative;
     background-color: rgb(76, 97, 134);
 
@@ -78,6 +78,13 @@
         font-size: $text-base;
         font-weight: 600;
         text-transform: uppercase;
+        color: $color-bright-gray;
+      }
+      span {
+        font-size: $text-small;
+        font-weight: 600;
+        text-transform: uppercase;
+        color: $color-bright-gray;
       }
     }
     .play_button_sec {
@@ -91,7 +98,7 @@
         font-size: $text-medium;
         font-weight: $font-600;
         width: 100%;
-        margin: 5px 0px;
+        margin: 13px 0px;
         &:hover {
           cursor: pointer;
         }

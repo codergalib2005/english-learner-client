@@ -23,7 +23,7 @@ const CardCarousel = () => {
       last_play: 2,
       status: "lock",
       label_count: 2,
-      des: "play continue until you win",
+      des: "play continue until you win. play continue until you win. play continue!",
     },
     {
       id: 2,
@@ -34,7 +34,7 @@ const CardCarousel = () => {
       last_play: 2,
       status: "lock",
       label_count: 2,
-      des: "play continue until you win",
+      des: "play continue until you win. play continue until you win. play continue!",
     },
     {
       id: 3,
@@ -45,7 +45,7 @@ const CardCarousel = () => {
       last_play: 2,
       status: "lock",
       label_count: 2,
-      des: "play continue until you win",
+      des: "play continue until you win. play continue until you win. play continue!",
     },
     {
       id: 4,
@@ -56,7 +56,7 @@ const CardCarousel = () => {
       last_play: 2,
       status: "lock",
       label_count: 2,
-      des: "play continue until you win",
+      des: "play continue until you win. play continue until you win. play continue!",
     },
     {
       id: 5,
@@ -67,7 +67,7 @@ const CardCarousel = () => {
       last_play: 2,
       status: "lock",
       label_count: 2,
-      des: "play continue until you win",
+      des: "play continue until you win. play continue until you win. play continue!",
     },
     {
       id: 6,
@@ -78,7 +78,7 @@ const CardCarousel = () => {
       last_play: 2,
       status: "lock",
       label_count: 2,
-      des: "play continue until you win",
+      des: "play continue until you win. play continue until you win. play continue!",
     },
     {
       id: 7,
@@ -89,7 +89,7 @@ const CardCarousel = () => {
       last_play: 2,
       status: "lock",
       label_count: 2,
-      des: "play continue until you win",
+      des: "play continue until you win. play continue until you win. play continue!",
     },
     {
       id: 8,
@@ -100,7 +100,7 @@ const CardCarousel = () => {
       last_play: 2,
       status: "lock",
       label_count: 2,
-      des: "play continue until you win",
+      des: "play continue until you win. play continue until you win. play continue!",
     },
   ];
   return (
@@ -148,7 +148,7 @@ const CardCarousel = () => {
                   style={{ borderRadius: "5px 5px 0px 0px" }}
                   src={game.img}
                   alt=""
-                  width={224}
+                  width={232}
                   height={130}
                 />
               </div>
