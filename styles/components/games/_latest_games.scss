@@ -1,14 +1,14 @@
-.container {
+.latest_games_container {
   margin: 10px auto;
   max-width: 74rem;
   width: 90%;
-  max-height: 25rem;
 
-  display: flex;
-  justify-content: center !important;
-  .swiper-slide {
-    display: flex;
-    justify-content: center !important;
+  h3 {
+    font-size: $text-extra-extra-extra-headline-size;
+    margin: 1rem 1.7rem;
+    text-transform: uppercase;
+    font-weight: $font-900;
+    color: #010a36;
   }
 
   .game_card {
