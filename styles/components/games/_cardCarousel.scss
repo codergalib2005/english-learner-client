@@ -3,11 +3,99 @@
   max-width: 74rem;
   width: 90%;
   max-height: 25rem;
-  background-color: gray;
+
   display: flex;
   justify-content: center !important;
   .swiper-slide {
     display: flex;
     justify-content: center !important;
+  }
+
+  .game_card {
+    border-radius: 5px;
+    max-height: 25rem;
+    width: 14rem;
+    position: relative;
+    background-color: rgb(76, 97, 134);
+
+    .i_button {
+      position: absolute;
+      top: 2px;
+      right: 2px;
+      border: 1px solid $color-bright-gray;
+      background: transparent;
+      font-weight: $font-900;
+      padding: 1px 1px;
+      border-radius: 60%;
+      color: $color-bright-gray;
+      display: grid;
+      place-content: center;
+      background-color: $color-dark-electric-blue;
+      &:hover {
+        cursor: pointer;
+      }
+    }
+
+    .game_img Image {
+      border-radius: 15px;
+
+      .img {
+        border-radius: 50%;
+      }
+    }
+    .game_available_for {
+      font-size: $text-small;
+      position: absolute;
+      left: 5px;
+      margin-top: -17px;
+      padding: 1px 5px;
+      border-radius: 5px;
+      background-color: $color-red;
+      color: $color-bright-gray;
+    }
+
+    .last_played {
+      margin: 5px 5px;
+      display: flex;
+      justify-content: space-between;
+      p {
+        font-size: $text-small;
+        color: $color-bright-gray;
+        text-transform: uppercase;
+        letter-spacing: 0.5px;
+      }
+    }
+
+    .divider {
+      border: 2px solid gray;
+      margin: 2px 5px;
+    }
+
+    .game_text {
+      margin: 4px 5px;
+
+      p {
+        font-size: $text-base;
+        font-weight: 600;
+        text-transform: uppercase;
+      }
+    }
+    .play_button_sec {
+      display: grid;
+      place-content: center;
+
+      .play_button {
+        background-color: #6ef0d6;
+        border: 0px;
+        padding: 5px 34px;
+        font-size: $text-medium;
+        font-weight: $font-600;
+        width: 100%;
+        margin: 5px 0px;
+        &:hover {
+          cursor: pointer;
+        }
+      }
+    }
   }
 }
