@@ -1,18 +1,13 @@
-.game_card_carousel_component {
-  margin: auto;
-  padding: 2rem 0px;
-
-  .mySwiper {
-    .game_img {
-      .game_img {
-        display: grid;
-        place-content: center;
-      }
-
-      .game_text {
-        display: grid;
-        place-content: center;
-      }
-    }
+.container {
+  margin: 10px auto;
+  max-width: 74rem;
+  width: 90%;
+  max-height: 25rem;
+  background-color: gray;
+  display: flex;
+  justify-content: center !important;
+  .swiper-slide {
+    display: flex;
+    justify-content: center !important;
   }
 }

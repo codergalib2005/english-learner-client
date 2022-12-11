@@ -6,7 +6,7 @@ import "swiper/css/pagination";
 import "swiper/css/free-mode";
 
 // import required modules
-import { Pagination, FreeMode } from "swiper";
+import { FreeMode } from "swiper";
 import Image from "next/image";
 
 const CardCarousel = () => {
@@ -53,29 +53,43 @@ const CardCarousel = () => {
     },
   ];
   return (
-    <div className="game_card_carousel_component">
+    <div className="container">
       <Swiper
+        style={{ display: "flex", justifyContent: "center" }}
         breakpoints={{
-          // when window width is >= 768px
-          768: {
-            width: 768,
+          0: {
+            slidesPerView: 1,
+            spaceBetween: 10,
+          },
+          490: {
             slidesPerView: 2,
+            spaceBetween: 10,
+          },
+          768: {
+            slidesPerView: 3,
+            spaceBetween: 15,
+          },
+          1024: {
+            slidesPerView: 4,
+            spaceBetween: 15,
+          },
+          1280: {
+            slidesPerView: 4,
+            spaceBetween: 15,
           },
         }}
-        slidesPerView={1}
-        spaceBetween={30}
         freeMode={true}
         pagination={{
           clickable: true,
         }}
-        modules={[FreeMode, Pagination]}
+        modules={[FreeMode]}
         className="mySwiper"
       >
         {games.map((game) => (
           <SwiperSlide key={game.id}>
             <div className="game_card">
               <div className="game_img">
-                <Image src={game.img} alt="" width={300} height={300} />
+                <Image src={game.img} alt="" width={200} height={220} />
               </div>
               <div className="game_text">
                 <h2>{game.title}</h2> <h2>{game.title}</h2>{" "}
