@@ -9,4 +9,42 @@
     font-weight: $font-900;
     color: #010a36;
   }
+
+  .hot_news_component {
+    margin: 2rem 1.5rem;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 1rem;
+
+    .card_image {
+      position: relative;
+      height: 33rem;
+    }
+
+    .news_card {
+      .news_card_child {
+        background-color: #010a36;
+        margin: 1rem 0px;
+
+        .news_card_content {
+          display: flex;
+          justify-content: space-between;
+          align-items: center;
+          gap: 16px;
+
+          .news_text {
+            h5 {
+              font-size: $text-base;
+              font-weight: $font-700;
+              // line-height: 5.5px;
+              text-transform: uppercase;
+            }
+
+            .news_more_button {
+            }
+          }
+        }
+      }
+    }
+  }
 }
