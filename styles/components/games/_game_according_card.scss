@@ -3,6 +3,7 @@
   .according_heading {
     background-color: #010a36;
     padding: 1rem 2.5rem;
+    border-radius: 5px 5px 0px 0px;
 
     .according_title {
       display: flex;
@@ -33,12 +34,12 @@
     height: 130px;
     opacity: 1;
     padding: 1rem 2rem;
-    background-color: $color-maastricht-Blue;
+    background-color: #8077f5;
     display: flex;
     overflow: hidden;
     transition: all 600ms ease-in-out;
     p {
-      color: #fff;
+     color:#010a36;
       font-size: $text-medium;
       margin: 0px;
       padding: 0px;
@@ -51,5 +52,10 @@
     transition: all 600ms ease-in-out;
     display: flex;
     overflow: hidden;
+    color: #010a36;
+    background-color: #8077f5;
+    p{
+      color: #010a36;
+    }
   }
 }
