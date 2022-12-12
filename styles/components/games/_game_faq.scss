@@ -3,4 +3,11 @@
   max-width: 74rem;
   width: 90%;
   padding: 0px 1rem;
+  .faq_sec {
+    font-size: $text-extra-extra-extra-headline-size;
+    margin: 2rem 2.5rem;
+    text-transform: uppercase;
+    font-weight: $font-900;
+    color: #010a36;
+  }
 }

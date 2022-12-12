@@ -13,6 +13,8 @@
         color: $color-bright-gray;
         font-size: $text-base;
         font-family: $text-normal;
+        letter-spacing: -0.3px;
+        text-transform: uppercase;
       }
 
       span {
@@ -28,13 +30,19 @@
   }
 
   .show {
-    height: 180px;
+    height: 130px;
     opacity: 1;
     padding: 1rem 2rem;
     background-color: $color-maastricht-Blue;
     display: flex;
     overflow: hidden;
     transition: all 600ms ease-in-out;
+    p {
+      color: #fff;
+      font-size: $text-medium;
+      margin: 0px;
+      padding: 0px;
+    }
   }
 
   .according_content {
@@ -43,14 +51,5 @@
     transition: all 600ms ease-in-out;
     display: flex;
     overflow: hidden;
-
-    .according_texts {
-      p {
-        color: $color-bright-gray;
-        font-size: $text-medium;
-        margin: 0px;
-        padding: 0px;
-      }
-    }
   }
 }
