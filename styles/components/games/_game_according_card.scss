@@ -1,0 +1,56 @@
+.game_faq_container_card {
+  margin: 5px 2.5rem;
+  .according_heading {
+    background-color: #010a36;
+    padding: 1rem 2.5rem;
+
+    .according_title {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+
+      p {
+        color: $color-bright-gray;
+        font-size: $text-base;
+        font-family: $text-normal;
+      }
+
+      span {
+        color: $color-bright-gray;
+        font-weight: 800;
+        font-family: $text-normal;
+        padding: 0px 10px;
+        &:hover {
+          cursor: pointer;
+        }
+      }
+    }
+  }
+
+  .show {
+    height: 180px;
+    opacity: 1;
+    padding: 1rem 2rem;
+    background-color: $color-maastricht-Blue;
+    display: flex;
+    overflow: hidden;
+    transition: all 600ms ease-in-out;
+  }
+
+  .according_content {
+    height: 0;
+    opacity: 0;
+    transition: all 600ms ease-in-out;
+    display: flex;
+    overflow: hidden;
+
+    .according_texts {
+      p {
+        color: $color-bright-gray;
+        font-size: $text-medium;
+        margin: 0px;
+        padding: 0px;
+      }
+    }
+  }
+}
