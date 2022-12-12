@@ -1,6 +1,7 @@
 import React from "react";
 import Banner from "../../components/Games/Banner";
 import CardCarousel from "../../components/Games/CardCarousel";
+import Extra_footer from "../../components/Games/Extra_footer";
 import Game_Faq from "../../components/Games/Game_Faq";
 import Hot_news from "../../components/Games/Hot_news";
 import Latest_games from "../../components/Games/Latest_games";
@@ -15,6 +16,7 @@ const Games = () => {
       <Latest_games />
       <Hot_news />
       <Game_Faq />
+      <Extra_footer />
     </div>
   );
 };
