@@ -2,4 +2,11 @@
   margin: 10px auto;
   max-width: 74rem;
   width: 90%;
+  h4 {
+    font-size: $text-extra-extra-extra-headline-size;
+    margin: 1rem 1.7rem;
+    text-transform: uppercase;
+    font-weight: $font-900;
+    color: #010a36;
+  }
 }
