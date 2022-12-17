@@ -5,20 +5,20 @@ const Hot_news = () => {
   const news = [
     {
       id: 1,
-      title: "consectetur  adipisicing consectetur elit.",
-      des: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Nemo impedit ipsam laboriosam iure nulla commodi ut, dolorem a possimus, doloremque labore eligendi? ",
+      title: "     adipisicing     elit.",
+      des: "Lorem ipsum dolor sit amet     adipisicing elit. Nemo impedit ipsam   ,  doloremque labore eligendi? ",
       img: "https://i.ibb.co/6WJFtTQ/3777183.jpg",
     },
     {
       id: 2,
-      title: "consectetur  adipisicing consectetur elit.",
-      des: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Nemo impedit ipsam laboriosam iure nulla commodi ut, dolorem a possimus, doloremque labore eligendi? ",
+      title: "     adipisicing     elit.",
+      des: "Lorem ipsum dolor sit amet     adipisicing elit. Nemo impedit ipsam   ,  doloremque labore eligendi? ",
       img: "https://i.ibb.co/6WJFtTQ/3777183.jpg",
     },
     {
       id: 3,
-      title: "consectetur  adipisicing consectetur elit.",
-      des: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Nemo impedit ipsam laboriosam iure nulla commodi ut, dolorem a possimus, doloremque labore eligendi?",
+      title: "     adipisicing     elit.",
+      des: "Lorem ipsum dolor sit amet     adipisicing elit. Nemo impedit ipsam   ,  doloremque labore eligendi?",
       img: "https://i.ibb.co/6WJFtTQ/3777183.jpg",
     },
   ];
@@ -38,7 +38,7 @@ const Hot_news = () => {
           {news.map((single_news, index) => (
             <div className="news_card_child">
               <div className="news_card_content">
-                <div >
+                <div style={{ display: "flex", justifyContent: "center" }}>
                   <Image
                     style={{ borderRadius: "5px 5px 0px 0px" }}
                     src={single_news.img}
@@ -47,10 +47,12 @@ const Hot_news = () => {
                     height={160}
                   />
                 </div>
-                <div className="news_text">
-                  <h5>{single_news.title}</h5>
-                  <p>{single_news.des}</p>
-                  <button className="news_more_button">Show more</button>
+                <div className="news_text_div">
+                  <div className="news_text">
+                    <h5>{single_news.title}</h5>
+                    <p>{single_news.des}</p>
+                    <button className="news_more_button">Show more</button>
+                  </div>
                 </div>
               </div>
             </div>
