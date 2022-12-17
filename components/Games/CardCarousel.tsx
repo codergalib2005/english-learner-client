@@ -4,6 +4,8 @@ import { Swiper, SwiperSlide } from "swiper/react";
 import "swiper/css";
 import "swiper/css/pagination";
 import "swiper/css/free-mode";
+
+// react icons
 import { AiOutlineInfo } from "react-icons/ai";
 import { GiTwoCoins } from "react-icons/gi";
 import { TiStopwatch } from "react-icons/ti";
@@ -112,7 +114,7 @@ const CardCarousel = () => {
             slidesPerView: 1,
             spaceBetween: 10,
           },
-          490: {
+          540: {
             slidesPerView: 2,
             spaceBetween: 10,
           },

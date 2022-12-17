@@ -97,11 +97,12 @@ const Latest_games = () => {
       <h3>Latest tests grow your skill!</h3>
       <div style={{ display: "flex", justifyContent: "center" }}>
         <div
-          style={{
-            display: "grid",
-            gridTemplateColumns: "repeat(4, 1fr)",
-            gap: "1rem",
-          }}
+          className="latest_games_main"
+          // style={{
+          //   display: "grid",
+          //   gridTemplateColumns: "repeat(4, 1fr)",
+          //   gap: "1rem",
+          // }}
         >
           {games.map((game) => (
             <Latest_game_card key={game.id} {...game} />

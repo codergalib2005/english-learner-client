@@ -4,6 +4,16 @@
   width: 14.5rem;
   position: relative;
   background-color: #010a36;
+  margin-bottom: 10px;
+
+  @include media-responsive(sm) {
+    border-radius: 5px;
+    height: 20rem;
+    width: 14.5rem;
+    position: relative;
+    background-color: #010a36;
+    margin: 0px;
+  }
 
   .i_button {
     position: absolute;
