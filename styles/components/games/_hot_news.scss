@@ -1,7 +1,5 @@
 .hot_news_container {
-  margin: 10px auto;
-  max-width: 74rem;
-  width: 90%;
+  @include container;
   h4 {
     font-size: $text-extra-extra-extra-headline-size;
     margin: 2rem 1.5rem;
@@ -38,7 +36,7 @@
             h5 {
               font-size: $text-large;
               font-weight: $font-600;
-               
+
               text-transform: uppercase;
               color: $color-bright-gray;
             }

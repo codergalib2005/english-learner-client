@@ -1,7 +1,5 @@
 .latest_games_container {
-  margin: 10px auto;
-  max-width: 74rem;
-  width: 90%;
+  @include container;
 
   h3 {
     font-size: $text-extra-extra-extra-headline-size;

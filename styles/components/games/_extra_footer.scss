@@ -1,7 +1,5 @@
 .extra_footer {
-  margin: 10px auto;
-  max-width: 74rem;
-  width: 90%;
+  @include container;
 
   .extra_footer_margin {
     margin: 2rem 1.5rem;
