@@ -1,0 +1,86 @@
+.hot_news_container {
+  @include container;
+  h4 {
+    font-size: $text-extra-extra-extra-headline-size;
+    margin: 2rem 1.5rem;
+    text-transform: uppercase;
+    font-weight: $font-900;
+    color: #010a36;
+  }
+
+  .hot_news_component {
+    margin: 2rem 1.5rem;
+    @include media-responsive(lg) {
+      display: grid;
+      grid-template-columns: repeat(2, 1fr);
+      gap: 1rem;
+    }
+
+    .card_image {
+      position: relative;
+      height: 15rem;
+      @include media-responsive(sm) {
+        height: 33rem;
+        position: relative;
+      }
+    }
+
+    .news_card {
+      .news_card_child {
+        background-color: #010a36;
+        margin: 0.5rem 0px;
+        border-radius: 5px 5px 0px 0px;
+
+        .news_card_content {
+          @include media-responsive(md) {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            gap: 16px;
+          }
+          @include media-responsive(sm) {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            gap: 16px;
+          }
+
+          .news_img {
+            height: 100%;
+            display: flex;
+            justify-content: center;
+          }
+          .news_text_div {
+            margin: 10px 2rem;
+            .news_text {
+              h5 {
+                font-size: $text-large;
+                font-weight: $font-600;
+
+                text-transform: uppercase;
+                color: $color-bright-gray;
+              }
+              p {
+                color: $color-bright-gray;
+                font-size: $text-small;
+                margin: 5px 0px;
+              }
+
+              .news_more_button {
+                border: none;
+                padding: 6px 1rem;
+                color: #010a36;
+                font-size: $text-medium;
+                font-weight: $font-600;
+                margin: 10px 0px;
+                &:hover {
+                  cursor: pointer;
+                }
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+}

@@ -31,7 +31,7 @@ const Birds: React.FC = () => {
   };
 
   let content = null;
-  if (isLoading) content = <BirdCartLoader />;
+  if (true) content = <BirdCartLoader />;
   if (isError) content = <Error massege="404 Page Not Found" />;
   if (isSuccess && data?.birds?.length === 0) content = <Error massege="No Data" />;
   if (isSuccess && data?.birds?.length > 0) {

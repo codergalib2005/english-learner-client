@@ -1,0 +1,11 @@
+.game_faq_container {
+  @include container;
+
+  .faq_sec {
+    font-size: $text-extra-extra-extra-headline-size;
+    margin: 2rem 1.5rem;
+    text-transform: uppercase;
+    font-weight: $font-900;
+    color: #010a36;
+  }
+}
