@@ -25,6 +25,10 @@ body {
 @import "./components/shared/header";
 @import "./components/shared/footer";
 
+//IMPORT FROM LOADER FOLDER
+@import "./components/loader/birdCartLoader";
+@import "./components/loader/error";
+
 // IMPORT FROM LAYOUT FOLDER
 @import "./layout/homeLayout";
 

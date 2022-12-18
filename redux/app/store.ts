@@ -1,11 +1,13 @@
 import { configureStore } from "@reduxjs/toolkit";
+import { animalsApi } from "../feature/animals/animalsApi";
 import { apiSlice } from "../feature/api/apiSlice";
 import { birdApi } from "../feature/birds/birdApi";
 
 export const store = configureStore({
   reducer: {
     [apiSlice.reducerPath]: apiSlice.reducer,
-    birds: birdApi.reducer
+    birds: birdApi.reducer,
+    animals: animalsApi.reducer,
   },
   middleware: (getDefaultMiddleware) =>
     getDefaultMiddleware().concat(apiSlice.middleware),
