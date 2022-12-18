@@ -60,7 +60,19 @@ const Birds: React.FC = () => {
               </motion.div>
             ))}
           </div>
-          <div className="birds_paginations">
+          
+      </div>
+    );
+  }
+
+  return (
+    <div>
+      <Header />
+      <div className="birds_pages">
+        <div style={{ width: "100%" }} className="birds">
+        {content}
+        {/* Pagination */}
+        <div className="birds_paginations">
             <div className="birds_pagination_counter noselect">
               <ReactPaginate
                 breakLabel="..."
@@ -92,16 +104,6 @@ const Birds: React.FC = () => {
               </p>
             </div>
           </div>
-      </div>
-    );
-  }
-
-  return (
-    <div>
-      <Header />
-      <div className="birds_pages">
-        <div style={{ width: "100%" }} className="birds">
-        {content}
         </div>
         <div className="addsSide">adds Side</div>
       </div>

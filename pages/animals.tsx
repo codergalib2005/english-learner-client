@@ -64,7 +64,16 @@ const Animals: React.FC = () => {
             </motion.div>
           ))}
         </div>
-        <div className="birds_paginations">
+      </div>
+    );
+  }
+  return (
+    <div>
+      <Header />
+      <div className="birds_pages">
+        <div className="birds">
+          {content}
+          <div className="birds_paginations">
             <div className="birds_pagination_counter noselect">
               <ReactPaginate
                 breakLabel="..."
@@ -96,15 +105,6 @@ const Animals: React.FC = () => {
               </p>
             </div>
           </div>
-      </div>
-    );
-  }
-  return (
-    <div>
-      <Header />
-      <div className="birds_pages">
-        <div className="birds">
-          {content}
         </div>
         <div className="addsSide">adds Side</div>
       </div>
