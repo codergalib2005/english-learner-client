@@ -20,6 +20,7 @@ body {
 @import "./common/font-size";
 @import "./common/font-weight";
 @import "./common/shadow";
+@import "./common/responsive";
 
 // IMPORT FROM COMPONENTS FOLDER
 @import "./components/shared/header";
@@ -49,5 +50,16 @@ body {
 
 
 
+
 // fruits page
 @import "./components/fruits/fruitsCard"
+
+// Games page
+@import "./components/games/banner";
+@import "./components/games/cardCarousel";
+@import "./components/games/latest_games";
+@import "./components/games/latest_game_card";
+@import "./components/games/hot_news";
+@import "./components/games/game_according_card";
+@import "./components/games/game_faq";
+@import "./components/games/extra_footer";

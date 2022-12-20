@@ -1,0 +1,29 @@
+.latest_games_container {
+  @include container;
+
+  .latest_games_main {
+    @include media-responsive(sm) {
+      display: grid;
+      grid-template-columns: repeat(2, 1fr);
+      gap: 0.5rem;
+    }
+    @include media-responsive(md) {
+      display: grid;
+      grid-template-columns: repeat(3, 1fr);
+      gap: 0.5rem;
+    }
+    @include media-responsive(lg) {
+      display: grid;
+      grid-template-columns: repeat(4, 1fr);
+      gap: 0.5rem;
+    }
+  }
+
+  h3 {
+    font-size: $text-extra-extra-extra-headline-size;
+    margin: 2rem 1.5rem;
+    text-transform: uppercase;
+    font-weight: $font-900;
+    color: #010a36;
+  }
+}

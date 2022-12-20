@@ -1,0 +1,106 @@
+.container {
+  @include container;
+  max-height: 25rem;
+
+  display: flex;
+  justify-content: center !important;
+  .swiper-slide {
+    display: flex;
+    justify-content: center !important;
+  }
+
+  .game_card {
+    border-radius: 5px;
+    height: 20rem;
+    width: 14.5rem;
+    position: relative;
+    background-color: #010a36;
+
+    .i_button {
+      position: absolute;
+      top: 2px;
+      right: 2px;
+      border: 1px solid $color-bright-gray;
+      background: transparent;
+      font-weight: $font-900;
+      padding: 1px 1px;
+      border-radius: 60%;
+      color: $color-bright-gray;
+      display: grid;
+      place-content: center;
+      background-color: $color-dark-electric-blue;
+      &:hover {
+        cursor: pointer;
+      }
+    }
+
+    .game_img Image {
+      border-radius: 15px;
+
+      .img {
+        border-radius: 50%;
+      }
+    }
+    .game_available_for {
+      font-size: $text-small;
+      position: absolute;
+      left: 1rem;
+      margin-top: -17px;
+      padding: 1px 5px;
+      border-radius: 5px;
+      background-color: $color-red;
+      color: $color-bright-gray;
+    }
+
+    .last_played {
+      margin: 5px 1rem;
+      display: flex;
+      justify-content: space-between;
+      p {
+        font-size: $text-small;
+        color: $color-bright-gray;
+        text-transform: uppercase;
+        letter-spacing: 0.5px;
+      }
+    }
+
+    .divider {
+      border: 2px solid gray;
+      margin: 2px 1rem;
+    }
+
+    .game_text {
+      margin: 4px 1rem;
+
+      p {
+        font-size: $text-base;
+        font-weight: 600;
+        text-transform: uppercase;
+        color: $color-bright-gray;
+      }
+      span {
+        font-size: $text-small;
+        font-weight: 600;
+        text-transform: uppercase;
+        color: $color-bright-gray;
+      }
+    }
+    .play_button_sec {
+      display: grid;
+      place-content: center;
+
+      .play_button {
+        background-color: #6ef0d6;
+        border: 0px;
+        padding: 5px 34px;
+        font-size: $text-medium;
+        font-weight: $font-600;
+        width: 100%;
+        margin: 13px 0px;
+        &:hover {
+          cursor: pointer;
+        }
+      }
+    }
+  }
+}
