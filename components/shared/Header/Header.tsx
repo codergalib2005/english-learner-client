@@ -25,6 +25,7 @@ const Header: React.FC = () => {
             <a href="#">Find Partner</a>
             <Link href="/birds">Birds</Link>
             <Link href="/animals">Animals</Link>
+            <Link href="/fruits">Fruits</Link>
           </div>
         </div>
 
