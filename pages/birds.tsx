@@ -33,34 +33,34 @@ const Birds: React.FC = () => {
   let content = null;
   if (true) content = <BirdCartLoader />;
   if (isError) content = <Error massege="404 Page Not Found" />;
-  if (isSuccess && data?.birds?.length === 0) content = <Error massege="No Data" />;
+  if (isSuccess && data?.birds?.length === 0)
+    content = <Error massege="No Data" />;
   if (isSuccess && data?.birds?.length > 0) {
     content = (
       <div>
         <div className="birds_pages_info">
-            {data.birds.map((bird: any) => (
-              <motion.div
-                key={bird._id}
-                whileDrag={{ scale: 1.1 }}
-                whileHover={{ scaleY: 1.1 }}
-                whileTap={{ scale: 0.8 }}
-                initial={{ opacity: 0 }}
-                animate={{ opacity: 1 }}
-                transition={{ duration: 0.5 }}
-                className="birds_card"
-              >
-                <Image
-                  className="card_img"
-                  src={bird.image}
-                  alt={bird.name}
-                  width={100}
-                  height={100}
-                />
-                <h3>{bird.name}</h3>
-              </motion.div>
-            ))}
-          </div>
-          
+          {data.birds.map((bird: any) => (
+            <motion.div
+              key={bird._id}
+              whileDrag={{ scale: 1.1 }}
+              whileHover={{ scaleY: 1.1 }}
+              whileTap={{ scale: 0.8 }}
+              initial={{ opacity: 0 }}
+              animate={{ opacity: 1 }}
+              transition={{ duration: 0.5 }}
+              className="birds_card"
+            >
+              <Image
+                className="card_img"
+                src={bird.image}
+                alt={bird.name}
+                width={100}
+                height={100}
+              />
+              <h3>{bird.name}</h3>
+            </motion.div>
+          ))}
+        </div>
       </div>
     );
   }
@@ -70,9 +70,9 @@ const Birds: React.FC = () => {
       <Header />
       <div className="birds_pages">
         <div style={{ width: "100%" }} className="birds">
-        {content}
-        {/* Pagination */}
-        <div className="birds_paginations">
+          {content}
+          {/* Pagination */}
+          <div className="birds_paginations">
             <div className="birds_pagination_counter noselect">
               <ReactPaginate
                 breakLabel="..."
