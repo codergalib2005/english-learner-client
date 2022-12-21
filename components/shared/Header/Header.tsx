@@ -1,18 +1,30 @@
 import Head from "next/head";
 import Link from "next/link";
 import React, { useState } from "react";
+import { TfiMenu } from "react-icons/tfi";
 
-const Header: React.FC = () => {
+type headerType = {
+  show: boolean;
+  setShow: any;
+};
+const Header: React.FC<headerType> = (props: headerType) => {
+  const { show, setShow } = props;
   const [open, setOpen] = useState(false);
   return (
     <>
       <Head>
-        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css" />
+        <link
+          rel="stylesheet"
+          href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css"
+        />
       </Head>
 
       <nav className="navbar">
-        <Link href="/">Home</Link>
+        <div className="menu_icon">
+          <TfiMenu style={{ fontSize: "1.75rem" }} />
+        </div>
 
+        <Link href="/">Home</Link>
         <div className="dropdown">
           <button className="dropbtn">
             Services
@@ -28,7 +40,6 @@ const Header: React.FC = () => {
             <Link href="/fruits">Fruits</Link>
           </div>
         </div>
-
         <a href="#">Blog</a>
         <div className="dropdown">
           <button className="dropbtn">

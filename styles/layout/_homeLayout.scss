@@ -9,12 +9,36 @@
   padding: 0 10px;
   max-width: 1300px;
   margin: 0 auto;
+  .home_layout_keyword_sidebar_0 {
+    display: none;
+  }
   .home_layout_keyword_sidebar {
     max-width: 350px;
     position: fixed;
     top: 0;
   }
   // Right side of the page
+  .content_layout_0 {
+    width: 100%;
+    margin-left: 0px;
+    .content_layout_wrapper {
+      // padding-bottom: 1rem;
+      // padding: 10px;
+      display: flex;
+      flex-direction: row;
+      justify-content: flex-start;
+      .content_box_parent {
+        // margin-top: 1rem;
+        width: 100%;
+        // padding: 0 10px;
+      }
+      .content_box_ads_side {
+        width: 100%;
+        max-width: 200px;
+        height: 100vh;
+      }
+    }
+  }
   .content_layout {
     width: 100%;
     margin-left: 350px;
