@@ -10,16 +10,23 @@
   max-width: 1300px;
   margin: 0 auto;
   .home_layout_keyword_sidebar_0 {
-    display: none;
+    max-width: 0px;
+    position: fixed;
+    top: 0;
+    transition: all 200ms ease-in-out;
+    z-index: 0;
   }
   .home_layout_keyword_sidebar {
     max-width: 350px;
     position: fixed;
     top: 0;
+    transition: all 200ms ease-in-out;
   }
   // Right side of the page
   .content_layout_0 {
     width: 100%;
+    transition: all 200ms ease-in-out;
+    z-index: 2;
     margin-left: 0px;
     .content_layout_wrapper {
       // padding-bottom: 1rem;
@@ -40,6 +47,7 @@
     }
   }
   .content_layout {
+    transition: all 200ms ease-in-out;
     width: 100%;
     margin-left: 350px;
     .content_layout_wrapper {

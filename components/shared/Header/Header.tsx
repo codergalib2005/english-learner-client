@@ -2,6 +2,7 @@ import Head from "next/head";
 import Link from "next/link";
 import React, { useState } from "react";
 import { TfiMenu } from "react-icons/tfi";
+import { RiCloseFill } from "react-icons/ri";
 
 type headerType = {
   show: boolean;
@@ -20,9 +21,17 @@ const Header: React.FC<headerType> = (props: headerType) => {
       </Head>
 
       <nav className="navbar">
-        <div className="menu_icon">
-          <TfiMenu style={{ fontSize: "1.75rem" }} />
-        </div>
+        {show ? (
+          <div onClick={() => setShow(!show)} className="menu_icon">
+            <RiCloseFill
+              style={{ fontSize: "1.75rem", padding: "4px 0px 0px 0px" }}
+            />
+          </div>
+        ) : (
+          <div onClick={() => setShow(!show)} className="menu_icon">
+            <TfiMenu style={{ fontSize: "1.75rem" }} />
+          </div>
+        )}
 
         <Link href="/">Home</Link>
         <div className="dropdown">
