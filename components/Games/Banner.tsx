@@ -7,18 +7,20 @@ const Banner = () => {
       <div className="game_banner_content">
         <div className="game_banner_text_field">
           <h3>
-            Talent wins games, but teamwork and intelligence  wins
-            championships.   ~ Michael Jordan
+            Talent wins games, but teamwork and intelligence wins championships.
+            ~ Michael Jordan
           </h3>
         </div>
         <div className="game_banner_img">
-          <Image
-            className="banner_img"
-            src="https://i.ibb.co/tqLtr6R/hero-position-img.png"
-            alt="Picture of the author"
-            width={400}
-            height={350}
-          />
+          <div className="banner_img">
+            <Image
+              src="https://i.ibb.co/tqLtr6R/hero-position-img.png"
+              alt="Picture of the author"
+              fill
+              // width={400}
+              // height={350}
+            />
+          </div>
         </div>
       </div>
     </div>

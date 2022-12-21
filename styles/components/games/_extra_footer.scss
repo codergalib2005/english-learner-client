@@ -7,13 +7,19 @@
 
     .extra_img {
       width: 100%;
-      height: 400px;
+      height: 220px;
+      @include media-responsive(sm) {
+        height: 400px;
+      }
     }
     p {
       position: absolute;
       color: #ffffff;
       font-weight: $font-700;
-      font-size: $text-extra-extra-extra-headline-size;
+      font-size: $text-base;
+      @include media-responsive(sm) {
+        font-size: $text-extra-extra-extra-headline-size;
+      }
       top: 50%;
       left: 50%;
       transform: translate(-50%, -50%);
