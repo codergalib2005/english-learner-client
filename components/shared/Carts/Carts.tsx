@@ -6,6 +6,7 @@ import bookimg from "../../../public/images/book.jpeg";
 import { BsStopwatch } from "react-icons/bs";
 import { TfiWorld } from "react-icons/tfi";
 import { BsFillBookmarkFill } from "react-icons/bs";
+import { Tooltip } from 'antd';
 
 const Carts: React.FC = () => {
   return (
@@ -25,12 +26,14 @@ const Carts: React.FC = () => {
           <div className="product-details">
             <span className="product-catagory">Women,bag</span>
             <div className="product-tittle">
-            <h4>
-              <a href="">Women leather bag</a>
-            </h4>
-            <span>
-              <BsFillBookmarkFill />
-            </span>
+              <h4>
+                <a href="">Women leather bag</a>
+              </h4>
+              <Tooltip color="#2db7f5" title="Bookmark Crouses">
+              <span>
+                <BsFillBookmarkFill />
+              </span>
+              </Tooltip>
             </div>
             <p>
               Lorem ipsum dolor sit amet, consectetur adipisicing elit. Vero,
@@ -38,14 +41,18 @@ const Carts: React.FC = () => {
             </p>
             <div className="product-bottom-details">
               <div className="product-price">
+                <Tooltip color="#2db7f5" title="Crouse compeleted time">
                 <span>
                   <BsStopwatch className="icons" /> 24 Hours
                 </span>
+                </Tooltip>
               </div>
               <div className="product-price">
+              <Tooltip color="#2db7f5" title="Crouses Language">
                 <span>
                   <TfiWorld className="icons" /> Language
                 </span>
+                </Tooltip>
               </div>
             </div>
           </div>

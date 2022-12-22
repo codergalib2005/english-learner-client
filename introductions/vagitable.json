@@ -1,0 +1,127 @@
+[
+    {
+        "id": 1,
+        "name": "Tomato",
+        "image": "https://img.freepik.com/free-photo/tomatoes_144627-15411.jpg",
+        "category": "vagitable"
+    },
+
+    {
+        "id": 2,
+        "name": "Gajor",
+        "image": "https://img.freepik.com/free-photo/carrots-ready-eat_1205-49.jpg",
+        "category": "vagitable"
+    },
+    {
+        "id": 3,
+        "name": "Full Cobi",
+        "image": "https://img.freepik.com/premium-photo/isolated-broccoli-white-background_753362-50.jpg",
+        "category": "vagitable"
+    },
+    {
+        "id": 4,
+        "name": "Rosun",
+        "image": "https://img.freepik.com/free-photo/closeup-freshly-harvested-garlic_181624-60874.jpg",
+        "category": "vagitable"
+    },
+    {
+        "id": 5,
+        "name": "Tomato",
+        "image": "https://img.freepik.com/free-photo/tomatoes_144627-15411.jpg",
+        "category": "vagitable"
+    },
+
+    {
+        "id": 6,
+        "name": "Gajor",
+        "image": "https://img.freepik.com/free-photo/carrots-ready-eat_1205-49.jpg",
+        "category": "vagitable"
+    },
+    {
+        "id": 7,
+        "name": "Full Cobi",
+        "image": "https://img.freepik.com/premium-photo/isolated-broccoli-white-background_753362-50.jpg",
+        "category": "vagitable"
+    },
+    {
+        "id": 8,
+        "name": "Rosun",
+        "image": "https://img.freepik.com/free-photo/closeup-freshly-harvested-garlic_181624-60874.jpg",
+        "category": "vagitable"
+    },
+    {
+        "id": 9,
+        "name": "Tomato",
+        "image": "https://img.freepik.com/free-photo/tomatoes_144627-15411.jpg",
+        "category": "vagitable"
+    },
+
+    {
+        "id": 10,
+        "name": "Gajor",
+        "image": "https://img.freepik.com/free-photo/carrots-ready-eat_1205-49.jpg",
+        "category": "vagitable"
+    },
+    {
+        "id": 11,
+        "name": "Full Cobi",
+        "image": "https://img.freepik.com/premium-photo/isolated-broccoli-white-background_753362-50.jpg",
+        "category": "vagitable"
+    },
+    {
+        "id": 12,
+        "name": "Rosun",
+        "image": "https://img.freepik.com/free-photo/closeup-freshly-harvested-garlic_181624-60874.jpg",
+        "category": "vagitable"
+    },
+    {
+        "id": 13,
+        "name": "Tomato",
+        "image": "https://img.freepik.com/free-photo/tomatoes_144627-15411.jpg",
+        "category": "vagitable"
+    },
+
+    {
+        "id": 14,
+        "name": "Gajor",
+        "image": "https://img.freepik.com/free-photo/carrots-ready-eat_1205-49.jpg",
+        "category": "vagitable"
+    },
+    {
+        "id": 15,
+        "name": "Full Cobi",
+        "image": "https://img.freepik.com/premium-photo/isolated-broccoli-white-background_753362-50.jpg",
+        "category": "vagitable"
+    },
+    {
+        "id": 16,
+        "name": "Rosun",
+        "image": "https://img.freepik.com/free-photo/closeup-freshly-harvested-garlic_181624-60874.jpg",
+        "category": "vagitable"
+    },
+    {
+        "id": 17,
+        "name": "Tomato",
+        "image": "https://img.freepik.com/free-photo/tomatoes_144627-15411.jpg",
+        "category": "vagitable"
+    },
+
+    {
+        "id": 18,
+        "name": "Gajor",
+        "image": "https://img.freepik.com/free-photo/carrots-ready-eat_1205-49.jpg",
+        "category": "vagitable"
+    },
+    {
+        "id": 19,
+        "name": "Full Cobi",
+        "image": "https://img.freepik.com/premium-photo/isolated-broccoli-white-background_753362-50.jpg",
+        "category": "vagitable"
+    },
+    {
+        "id": 20,
+        "name": "Rosun",
+        "image": "https://img.freepik.com/free-photo/closeup-freshly-harvested-garlic_181624-60874.jpg",
+        "category": "vagitable"
+    }
+]

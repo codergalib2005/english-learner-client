@@ -10,7 +10,7 @@ import Error from "../components/loader/Error";
 const Birds: React.FC = () => {
   const router = useRouter();
   const { page, limit } = router.query || {};
-  const { data, isSuccess, isLoading, isError } = useGetBirdsQuery({
+  const { data, isSuccess, isLoading, isError, error } = useGetBirdsQuery({
     page: page || 1,
     limit: limit || 20,
   });
@@ -31,7 +31,7 @@ const Birds: React.FC = () => {
   };
 
   let content = null;
-  if (true) content = <BirdCartLoader />;
+  if (isLoading) content = <BirdCartLoader />;
   if (isError) content = <Error massege="404 Page Not Found" />;
   if (isSuccess && data?.birds?.length === 0)
     content = <Error massege="No Data" />;

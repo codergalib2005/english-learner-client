@@ -3,10 +3,10 @@ import Header from "../components/shared/Header/Header";
 import { motion } from "framer-motion";
 import Image from "next/image";
 import ReactPaginate from "react-paginate";
-import { useGetFruitsQuery } from "../redux/feature/fruits/fruitsApi";
 import { useRouter } from "next/router";
 import BirdCartLoader from "../components/loader/BirdCartLoader";
 import Error from "../components/loader/Error";
+import { useGetFruitsQuery } from "../redux/feature/fruits/fruitsApi";
 
 /* --------------------------------------------------------
 -------------Style uses from _bird.scss file---------------
@@ -15,11 +15,11 @@ import Error from "../components/loader/Error";
 const Fruits: React.FC = () => {
   const router = useRouter();
   const { limit, page } = router.query;
-  const { data, isSuccess, isLoading, isError } = useGetFruitsQuery({
+  const { data, isSuccess, isLoading, isError, error } = useGetFruitsQuery({
     page: page || 1,
     limit: limit || 20,
   });
-
+console.log(data)
   const handlePageClick = (e: any) => {
     if (limit) {
       router.push(`/fruits?page=${e.selected + 1}&limit=${limit}`);
@@ -89,7 +89,7 @@ const Fruits: React.FC = () => {
             <div className="pagination_result">
               <select
                 defaultValue={20}
-                disabled={!(isSuccess && data?.birds?.length > 0)}
+                disabled={!(isSuccess && data?.fruits?.length > 0)}
                 onChange={(e) => changeLimit(e)}
                 name="birds_count"
                 id=""
@@ -102,7 +102,7 @@ const Fruits: React.FC = () => {
               </select>
               <p>
                 Results: {data?.currentPage}-{limit || 20} of{" "}
-                {data?.totalBirds || "00"}
+                {data?.totalFruit || "00"}
               </p>
             </div>
           </div>

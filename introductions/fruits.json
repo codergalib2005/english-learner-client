@@ -1,0 +1,127 @@
+[
+    {
+        "id": 1,
+        "name": "Apple",
+        "image": "https://i.ibb.co/CJ3XwsZ/1908-i308-003-p-m005-c20-realistic-fruits-set-05.jpg",
+        "category": "fruits"
+    },
+
+    {
+        "id": 2,
+        "name": "Banana",
+        "image": "https://i.ibb.co/41gF3Rh/21517.jpg",
+        "category": "fruits"
+    },
+    {
+        "id": 3,
+        "name": "Apricot",
+        "image": "https://i.ibb.co/dpnF09J/1908-i308-003-p-m005-c20-realistic-fruits-set-03.jpg",
+        "category": "fruits"
+    },
+    {
+        "id": 4,
+        "name": "Papaya",
+        "image": "https://i.ibb.co/XZqMmp2/fresh-papaya-fruit.jpg",
+        "category": "fruits"
+    },
+    {
+        "id": 5,
+        "name": "Apple",
+        "image": "https://i.ibb.co/CJ3XwsZ/1908-i308-003-p-m005-c20-realistic-fruits-set-05.jpg",
+        "category": "fruits"
+    },
+
+    {
+        "id": 6,
+        "name": "Banana",
+        "image": "https://i.ibb.co/41gF3Rh/21517.jpg",
+        "category": "fruits"
+    },
+    {
+        "id": 7,
+        "name": "Apricot",
+        "image": "https://i.ibb.co/dpnF09J/1908-i308-003-p-m005-c20-realistic-fruits-set-03.jpg",
+        "category": "fruits"
+    },
+    {
+        "id": 8,
+        "name": "Papaya",
+        "image": "https://i.ibb.co/XZqMmp2/fresh-papaya-fruit.jpg",
+        "category": "fruits"
+    },
+    {
+        "id": 9,
+        "name": "Apple",
+        "image": "https://i.ibb.co/CJ3XwsZ/1908-i308-003-p-m005-c20-realistic-fruits-set-05.jpg",
+        "category": "fruits"
+    },
+
+    {
+        "id": 10,
+        "name": "Banana",
+        "image": "https://i.ibb.co/41gF3Rh/21517.jpg",
+        "category": "fruits"
+    },
+    {
+        "id": 11,
+        "name": "Apricot",
+        "image": "https://i.ibb.co/dpnF09J/1908-i308-003-p-m005-c20-realistic-fruits-set-03.jpg",
+        "category": "fruits"
+    },
+    {
+        "id": 12,
+        "name": "Papaya",
+        "image": "https://i.ibb.co/XZqMmp2/fresh-papaya-fruit.jpg",
+        "category": "fruits"
+    },
+    {
+        "id": 13,
+        "name": "Apple",
+        "image": "https://i.ibb.co/CJ3XwsZ/1908-i308-003-p-m005-c20-realistic-fruits-set-05.jpg",
+        "category": "fruits"
+    },
+
+    {
+        "id": 14,
+        "name": "Banana",
+        "image": "https://i.ibb.co/41gF3Rh/21517.jpg",
+        "category": "fruits"
+    },
+    {
+        "id": 15,
+        "name": "Apricot",
+        "image": "https://i.ibb.co/dpnF09J/1908-i308-003-p-m005-c20-realistic-fruits-set-03.jpg",
+        "category": "fruits"
+    },
+    {
+        "id": 16,
+        "name": "Papaya",
+        "image": "https://i.ibb.co/XZqMmp2/fresh-papaya-fruit.jpg",
+        "category": "fruits"
+    },
+    {
+        "id": 17,
+        "name": "Apple",
+        "image": "https://i.ibb.co/CJ3XwsZ/1908-i308-003-p-m005-c20-realistic-fruits-set-05.jpg",
+        "category": "fruits"
+    },
+
+    {
+        "id": 18,
+        "name": "Banana",
+        "image": "https://i.ibb.co/41gF3Rh/21517.jpg",
+        "category": "fruits"
+    },
+    {
+        "id": 19,
+        "name": "Apricot",
+        "image": "https://i.ibb.co/dpnF09J/1908-i308-003-p-m005-c20-realistic-fruits-set-03.jpg",
+        "category": "fruits"
+    },
+    {
+        "id": 20,
+        "name": "Papaya",
+        "image": "https://i.ibb.co/XZqMmp2/fresh-papaya-fruit.jpg",
+        "category": "fruits"
+    }
+]

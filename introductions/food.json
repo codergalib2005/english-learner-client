@@ -1,0 +1,127 @@
+[
+    {
+        "id": 1,
+        "name": "Delicious fried chicken",
+        "image": "https://img.freepik.com/free-photo/delicious-fried-chicken-plate_144627-27383.jpg",
+        "category": "food"
+      },
+    
+      {
+        "id": 2,
+        "name": "Soup",
+        "image": "https://img.freepik.com/free-photo/top-view-vegetable-soup-with-meat-inside-plate-grey_140725-36040.jpg",
+        "category": "food"
+      },
+      {
+        "id": 3,
+        "name": "Baked Chicken",
+        "image": "https://img.freepik.com/free-photo/baked-chicken-wings-asian-style-tomatoes-sauce-plate_2829-10657.jpg",
+        "category": "food"
+      },
+      {
+        "id": 4,
+        "name": "Delicious food",
+        "image": "https://img.freepik.com/free-photo/delicious-food-white-plate_144627-34705.jpg",
+        "category": "food"
+      },
+    {
+        "id": 1,
+        "name": "Delicious fried chicken",
+        "image": "https://img.freepik.com/free-photo/delicious-fried-chicken-plate_144627-27383.jpg",
+        "category": "food"
+      },
+    
+      {
+        "id": 2,
+        "name": "Soup",
+        "image": "https://img.freepik.com/free-photo/top-view-vegetable-soup-with-meat-inside-plate-grey_140725-36040.jpg",
+        "category": "food"
+      },
+      {
+        "id": 3,
+        "name": "Baked Chicken",
+        "image": "https://img.freepik.com/free-photo/baked-chicken-wings-asian-style-tomatoes-sauce-plate_2829-10657.jpg",
+        "category": "food"
+      },
+      {
+        "id": 4,
+        "name": "Delicious food",
+        "image": "https://img.freepik.com/free-photo/delicious-food-white-plate_144627-34705.jpg",
+        "category": "food"
+      },
+    {
+        "id": 1,
+        "name": "Delicious fried chicken",
+        "image": "https://img.freepik.com/free-photo/delicious-fried-chicken-plate_144627-27383.jpg",
+        "category": "food"
+      },
+    
+      {
+        "id": 2,
+        "name": "Soup",
+        "image": "https://img.freepik.com/free-photo/top-view-vegetable-soup-with-meat-inside-plate-grey_140725-36040.jpg",
+        "category": "food"
+      },
+      {
+        "id": 3,
+        "name": "Baked Chicken",
+        "image": "https://img.freepik.com/free-photo/baked-chicken-wings-asian-style-tomatoes-sauce-plate_2829-10657.jpg",
+        "category": "food"
+      },
+      {
+        "id": 4,
+        "name": "Delicious food",
+        "image": "https://img.freepik.com/free-photo/delicious-food-white-plate_144627-34705.jpg",
+        "category": "food"
+      },
+    {
+        "id": 1,
+        "name": "Delicious fried chicken",
+        "image": "https://img.freepik.com/free-photo/delicious-fried-chicken-plate_144627-27383.jpg",
+        "category": "food"
+      },
+    
+      {
+        "id": 2,
+        "name": "Soup",
+        "image": "https://img.freepik.com/free-photo/top-view-vegetable-soup-with-meat-inside-plate-grey_140725-36040.jpg",
+        "category": "food"
+      },
+      {
+        "id": 3,
+        "name": "Baked Chicken",
+        "image": "https://img.freepik.com/free-photo/baked-chicken-wings-asian-style-tomatoes-sauce-plate_2829-10657.jpg",
+        "category": "food"
+      },
+      {
+        "id": 4,
+        "name": "Delicious food",
+        "image": "https://img.freepik.com/free-photo/delicious-food-white-plate_144627-34705.jpg",
+        "category": "food"
+      },
+    {
+        "id": 1,
+        "name": "Delicious fried chicken",
+        "image": "https://img.freepik.com/free-photo/delicious-fried-chicken-plate_144627-27383.jpg",
+        "category": "food"
+      },
+    
+      {
+        "id": 2,
+        "name": "Soup",
+        "image": "https://img.freepik.com/free-photo/top-view-vegetable-soup-with-meat-inside-plate-grey_140725-36040.jpg",
+        "category": "food"
+      },
+      {
+        "id": 3,
+        "name": "Baked Chicken",
+        "image": "https://img.freepik.com/free-photo/baked-chicken-wings-asian-style-tomatoes-sauce-plate_2829-10657.jpg",
+        "category": "food"
+      },
+      {
+        "id": 4,
+        "name": "Delicious food",
+        "image": "https://img.freepik.com/free-photo/delicious-food-white-plate_144627-34705.jpg",
+        "category": "food"
+      }
+]

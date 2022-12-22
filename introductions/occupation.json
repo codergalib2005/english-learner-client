@@ -1,0 +1,127 @@
+[
+    {
+        "id": 1,
+        "name": "Doctors & Nurse",
+        "image": "https://img.freepik.com/free-vector/medical-good-team-hospital-staff-doctors-nurse-illustration_1284-53038.jpg",
+        "category": "occupation"
+      },
+    
+      {
+        "id": 2,
+        "name": "Teacher",
+        "image": "https://img.freepik.com/free-photo/kid-doing-occupational-therapy-session_23-2149091534.jpg",
+        "category": "occupation"
+      },
+      {
+        "id": 3,
+        "name": "Programming",
+        "image": "https://img.freepik.com/premium-photo/various-computer-equipment-with-programming-code-screens-table-dark-room-cyber-security-concept-copy-space_236854-23136.jpg",
+        "category": "occupation"
+      },
+      {
+        "id": 4,
+        "name": "Engyneer",
+        "image": "https://img.freepik.com/free-photo/industrial-health-measures-during-corona-virus-pandemic_342744-120.jpg",
+        "category": "occupation"
+      },
+    {
+        "id": 1,
+        "name": "Doctors & Nurse",
+        "image": "https://img.freepik.com/free-vector/medical-good-team-hospital-staff-doctors-nurse-illustration_1284-53038.jpg",
+        "category": "occupation"
+      },
+    
+      {
+        "id": 2,
+        "name": "Teacher",
+        "image": "https://img.freepik.com/free-photo/kid-doing-occupational-therapy-session_23-2149091534.jpg",
+        "category": "occupation"
+      },
+      {
+        "id": 3,
+        "name": "Programming",
+        "image": "https://img.freepik.com/premium-photo/various-computer-equipment-with-programming-code-screens-table-dark-room-cyber-security-concept-copy-space_236854-23136.jpg",
+        "category": "occupation"
+      },
+      {
+        "id": 4,
+        "name": "Engyneer",
+        "image": "https://img.freepik.com/free-photo/industrial-health-measures-during-corona-virus-pandemic_342744-120.jpg",
+        "category": "occupation"
+      },
+    {
+        "id": 1,
+        "name": "Doctors & Nurse",
+        "image": "https://img.freepik.com/free-vector/medical-good-team-hospital-staff-doctors-nurse-illustration_1284-53038.jpg",
+        "category": "occupation"
+      },
+    
+      {
+        "id": 2,
+        "name": "Teacher",
+        "image": "https://img.freepik.com/free-photo/kid-doing-occupational-therapy-session_23-2149091534.jpg",
+        "category": "occupation"
+      },
+      {
+        "id": 3,
+        "name": "Programming",
+        "image": "https://img.freepik.com/premium-photo/various-computer-equipment-with-programming-code-screens-table-dark-room-cyber-security-concept-copy-space_236854-23136.jpg",
+        "category": "occupation"
+      },
+      {
+        "id": 4,
+        "name": "Engyneer",
+        "image": "https://img.freepik.com/free-photo/industrial-health-measures-during-corona-virus-pandemic_342744-120.jpg",
+        "category": "occupation"
+      },
+    {
+        "id": 1,
+        "name": "Doctors & Nurse",
+        "image": "https://img.freepik.com/free-vector/medical-good-team-hospital-staff-doctors-nurse-illustration_1284-53038.jpg",
+        "category": "occupation"
+      },
+    
+      {
+        "id": 2,
+        "name": "Teacher",
+        "image": "https://img.freepik.com/free-photo/kid-doing-occupational-therapy-session_23-2149091534.jpg",
+        "category": "occupation"
+      },
+      {
+        "id": 3,
+        "name": "Programming",
+        "image": "https://img.freepik.com/premium-photo/various-computer-equipment-with-programming-code-screens-table-dark-room-cyber-security-concept-copy-space_236854-23136.jpg",
+        "category": "occupation"
+      },
+      {
+        "id": 4,
+        "name": "Engyneer",
+        "image": "https://img.freepik.com/free-photo/industrial-health-measures-during-corona-virus-pandemic_342744-120.jpg",
+        "category": "occupation"
+      },
+    {
+        "id": 1,
+        "name": "Doctors & Nurse",
+        "image": "https://img.freepik.com/free-vector/medical-good-team-hospital-staff-doctors-nurse-illustration_1284-53038.jpg",
+        "category": "occupation"
+      },
+    
+      {
+        "id": 2,
+        "name": "Teacher",
+        "image": "https://img.freepik.com/free-photo/kid-doing-occupational-therapy-session_23-2149091534.jpg",
+        "category": "occupation"
+      },
+      {
+        "id": 3,
+        "name": "Programming",
+        "image": "https://img.freepik.com/premium-photo/various-computer-equipment-with-programming-code-screens-table-dark-room-cyber-security-concept-copy-space_236854-23136.jpg",
+        "category": "occupation"
+      },
+      {
+        "id": 4,
+        "name": "Engyneer",
+        "image": "https://img.freepik.com/free-photo/industrial-health-measures-during-corona-virus-pandemic_342744-120.jpg",
+        "category": "occupation"
+      }
+]

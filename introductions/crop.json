@@ -1,0 +1,127 @@
+[
+    {
+        "id": 1,
+        "name": "Wheat",
+        "image": "https://img.freepik.com/free-photo/selective-shot-golden-wheat-wheat-field_181624-16396.jpg",
+        "category": "crop"
+      },
+    
+      {
+        "id": 2,
+        "name": "meadow landscape",
+        "image": "https://img.freepik.com/free-photo/sunny-meadow-landscape_1112-134.jpg",
+        "category": "crop"
+      },
+      {
+        "id": 3,
+        "name": "Rice",
+        "image": "https://img.freepik.com/free-photo/farmer-standing-rice-field-with-tablet_1150-6062.jpg",
+        "category": "crop"
+      },
+      {
+        "id": 4,
+        "name": "farmland",
+        "image": "https://img.freepik.com/free-photo/high-angle-farmland-view_23-2148579680.jpg",
+        "category": "crop"
+      },
+    {
+        "id": 1,
+        "name": "Wheat",
+        "image": "https://img.freepik.com/free-photo/selective-shot-golden-wheat-wheat-field_181624-16396.jpg",
+        "category": "crop"
+      },
+    
+      {
+        "id": 2,
+        "name": "meadow landscape",
+        "image": "https://img.freepik.com/free-photo/sunny-meadow-landscape_1112-134.jpg",
+        "category": "crop"
+      },
+      {
+        "id": 3,
+        "name": "Rice",
+        "image": "https://img.freepik.com/free-photo/farmer-standing-rice-field-with-tablet_1150-6062.jpg",
+        "category": "crop"
+      },
+      {
+        "id": 4,
+        "name": "farmland",
+        "image": "https://img.freepik.com/free-photo/high-angle-farmland-view_23-2148579680.jpg",
+        "category": "crop"
+      },
+    {
+        "id": 1,
+        "name": "Wheat",
+        "image": "https://img.freepik.com/free-photo/selective-shot-golden-wheat-wheat-field_181624-16396.jpg",
+        "category": "crop"
+      },
+    
+      {
+        "id": 2,
+        "name": "meadow landscape",
+        "image": "https://img.freepik.com/free-photo/sunny-meadow-landscape_1112-134.jpg",
+        "category": "crop"
+      },
+      {
+        "id": 3,
+        "name": "Rice",
+        "image": "https://img.freepik.com/free-photo/farmer-standing-rice-field-with-tablet_1150-6062.jpg",
+        "category": "crop"
+      },
+      {
+        "id": 4,
+        "name": "farmland",
+        "image": "https://img.freepik.com/free-photo/high-angle-farmland-view_23-2148579680.jpg",
+        "category": "crop"
+      },
+    {
+        "id": 1,
+        "name": "Wheat",
+        "image": "https://img.freepik.com/free-photo/selective-shot-golden-wheat-wheat-field_181624-16396.jpg",
+        "category": "crop"
+      },
+    
+      {
+        "id": 2,
+        "name": "meadow landscape",
+        "image": "https://img.freepik.com/free-photo/sunny-meadow-landscape_1112-134.jpg",
+        "category": "crop"
+      },
+      {
+        "id": 3,
+        "name": "Rice",
+        "image": "https://img.freepik.com/free-photo/farmer-standing-rice-field-with-tablet_1150-6062.jpg",
+        "category": "crop"
+      },
+      {
+        "id": 4,
+        "name": "farmland",
+        "image": "https://img.freepik.com/free-photo/high-angle-farmland-view_23-2148579680.jpg",
+        "category": "crop"
+      },
+    {
+        "id": 1,
+        "name": "Wheat",
+        "image": "https://img.freepik.com/free-photo/selective-shot-golden-wheat-wheat-field_181624-16396.jpg",
+        "category": "crop"
+      },
+    
+      {
+        "id": 2,
+        "name": "meadow landscape",
+        "image": "https://img.freepik.com/free-photo/sunny-meadow-landscape_1112-134.jpg",
+        "category": "crop"
+      },
+      {
+        "id": 3,
+        "name": "Rice",
+        "image": "https://img.freepik.com/free-photo/farmer-standing-rice-field-with-tablet_1150-6062.jpg",
+        "category": "crop"
+      },
+      {
+        "id": 4,
+        "name": "farmland",
+        "image": "https://img.freepik.com/free-photo/high-angle-farmland-view_23-2148579680.jpg",
+        "category": "crop"
+      }
+]
