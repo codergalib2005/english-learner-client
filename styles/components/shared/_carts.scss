@@ -1,7 +1,22 @@
 .product-ards {
   display: grid;
-  grid-template-columns: repeat(3, 1fr);
-  gap: 15px;
+  grid-template-columns: repeat(1, 1fr);
+
+  @include media-responsive(sm) {
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+    gap: 5px;
+  }
+  @include media-responsive(md) {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 5px;
+  }
+  @include media-responsive(lg) {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 5px;
+  }
 }
 .product-card {
   width: 250px;
@@ -10,6 +25,26 @@
   margin: 30px auto;
   background: #fafafa;
   border-radius: 0 0 10px 10px;
+  @include media-responsive(xsm) {
+    width: 200px;
+    position: relative;
+    box-shadow: 0 2px 7px #dfdfdf;
+    margin: 32px auto;
+    background: #fafafa;
+    border-radius: 0 0 10px 10px;
+    .badge {
+      position: absolute;
+      left: 0;
+      top: 0;
+      text-transform: uppercase;
+      font-size: 13px;
+      font-weight: 700;
+      background: $color-red;
+      color: #fff;
+      padding: 3px 10px;
+      border-radius: 10px 0 0 0;
+    }
+  }
   .badge {
     position: absolute;
     left: 0;
@@ -48,7 +83,8 @@
       span {
         padding: 5px;
         border-radius: 10px;
-        box-shadow: rgb(204, 219, 232) 3px 3px 6px 0px inset, rgba(255, 255, 255, 0.5) -3px -3px 6px 1px inset;
+        box-shadow: rgb(204, 219, 232) 3px 3px 6px 0px inset,
+          rgba(255, 255, 255, 0.5) -3px -3px 6px 1px inset;
       }
     }
     h4 a {

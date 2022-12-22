@@ -4,14 +4,9 @@
   display: flex;
   align-items: center;
   z-index: 10;
+
   .menu_icon {
-    color: $color-bright-gray;
-    border: 1px solid $color-bright-gray;
-    padding: 3px 6px;
-    padding-bottom: 0px;
-    margin: 2px 5px;
     cursor: pointer;
-    border-radius: 4px;
   }
   a {
     font-size: 16px;

@@ -8,6 +8,7 @@ type layoutChildren = {
   children: React.ReactNode;
 };
 const HomeLayout = ({ children }: layoutChildren) => {
+  console.log(children);
   const [show, setShow] = useState<boolean>(false);
   return (
     <div className="home_layout_main_wrapper">

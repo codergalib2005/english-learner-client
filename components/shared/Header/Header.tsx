@@ -23,13 +23,11 @@ const Header: React.FC<headerType> = (props: headerType) => {
       <nav className="navbar">
         {show ? (
           <div onClick={() => setShow(!show)} className="menu_icon">
-            <RiCloseFill
-              style={{ fontSize: "1.75rem", padding: "4px 0px 0px 0px" }}
-            />
+            <a>&#9776;</a>
           </div>
         ) : (
           <div onClick={() => setShow(!show)} className="menu_icon">
-            <TfiMenu style={{ fontSize: "1.75rem" }} />
+            <a>&#9776;</a>
           </div>
         )}
 
