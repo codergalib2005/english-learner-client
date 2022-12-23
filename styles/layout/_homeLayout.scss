@@ -42,12 +42,18 @@
       .content_box_parent {
         margin-top: 10rem;
         width: 100%;
-        z-index:0;
+        z-index: 0;
         // padding: 0 10px;
       }
+
       .content_box_ads_side {
+        overflow: hidden;
         width: 100%;
+        display: none;
         max-width: 200px;
+        @include media-responsive(md) {
+          display: block;
+        }
         height: 100vh;
       }
     }

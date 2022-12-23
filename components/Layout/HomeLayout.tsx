@@ -10,6 +10,7 @@ type layoutChildren = {
 const HomeLayout = ({ children }: layoutChildren) => {
   console.log(children);
   const [show, setShow] = useState<boolean>(false);
+  const [showRight, setShowRight] = useState<boolean>(false);
   return (
     <div className="home_layout_main_wrapper">
       {/* Keyword Side or Left Side */}
@@ -33,7 +34,9 @@ const HomeLayout = ({ children }: layoutChildren) => {
             {children}
           </main>
           {/* Right Side or Adds Side */}
-          <div className="content_box_ads_side">{/* <AddsSide /> */}</div>
+          <div className="content_box_ads_side">
+            <AddsSide setShowRight={setShowRight} showRight={showRight} />
+          </div>
         </div>
         <Footer />
       </div>
