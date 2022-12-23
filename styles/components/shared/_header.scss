@@ -1,79 +1,155 @@
-.navbar {
-  overflow: hidden;
+.header {
+  // height: 56px;
+  // max-width: 1920px;
+  // background-color: $color-primary_color;
+  // z-index: 10;
+  // padding: 0px 0px;
+  // box-shadow: 0px 1px 5px $color-blueberry;
   background-color: $color-primary_color;
-  display: flex;
-  align-items: center;
-  z-index: 10;
+  height: 56px;
+  z-index: 20;
+  .header_content {
+    padding: 0 1rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 56px;
 
-  .menu_icon {
-    cursor: pointer;
-  }
-  a {
-    font-size: 16px;
-    color: white;
-    text-align: center;
-    padding: 14px 16px;
-    text-decoration: none;
-    &:hover {
-      background-color: $color-primary_color_hover;
+    .menu_icon {
+      color: $color-bright-gray;
+      font-size: $text-extra-large;
+      &:hover {
+        cursor: pointer;
+      }
     }
-  }
-}
-.dropdown {
-  overflow: hidden;
-  .dropbtn {
-    cursor: pointer;
-    font-size: 16px;
-    border: none;
-    outline: none;
-    color: white;
-    padding: 14px 16px;
-    background-color: inherit;
-    font-family: inherit;
-    margin: 0;
-    .fa {
-      margin-left: 8px;
+
+    .nav_links {
+      display: none;
+      justify-content: flex-end;
+      align-items: center;
+      width: 75%;
+
+      @include media-responsive(md) {
+        display: flex;
+        justify-content: flex-end;
+        align-items: center;
+        width: 75%;
+      }
+
+      .link {
+        text-decoration: none;
+        color: $color-bright-gray;
+      }
     }
-  }
-  &:hover {
-    .dropbtn {
-      background-color: $color-primary_color_hover;
+
+    .nav_links_mobile {
+      position: absolute;
+      display: block;
+      justify-content: center;
+      background-color: $color-primary_color;
+      left: 0px;
+      top: 56px;
+      transition: all 1s ease-out;
+      width: 100%;
+      z-index: 10;
+
+      .link {
+        text-decoration: none;
+
+        color: $color-bright-gray;
+      }
+      @include media-responsive(md) {
+        display: none;
+        transition: all 1s ease-out;
+      }
+    }
+
+    .icon {
+      color: $color-bright-gray;
+      font-size: $text-extra-large;
+      &:hover {
+        cursor: pointer;
+      }
+      @include media-responsive(md) {
+        display: none;
+      }
+    }
+    .navbar {
+      // justify-content: center;
+      // align-items: center;
+
+      // .menu_icon {
+      //   cursor: pointer;
+      // }
+      // a {
+      //   font-size: 16px;
+      //   color: white;
+      //   text-align: center;
+      //   padding: 14px 16px;
+      //   text-decoration: none;
+      //   &:hover {
+      //     background-color: $color-primary_color_hover;
+      //   }
+      // }
+    }
+    .dropdown {
+      overflow: hidden;
+      .dropbtn {
+        cursor: pointer;
+        font-size: 16px;
+        border: none;
+        outline: none;
+        color: white;
+        padding: 14px 16px;
+        background-color: inherit;
+        font-family: inherit;
+        margin: 0;
+        .fa {
+          margin-left: 8px;
+        }
+      }
+      &:hover {
+        .dropbtn {
+          background-color: $color-primary_color_hover;
+        }
+        .dropdown-content {
+          display: block;
+          justify-content: center;
+        }
+      }
     }
     .dropdown-content {
-      display: block;
+      display: none;
+      position: absolute;
+      background-color: #f9f9f9;
+      min-width: 160px;
+      box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+      border-radius: 8px;
+      z-index: 1;
+      a {
+        float: none;
+        color: black;
+        padding: 12px 16px;
+        text-decoration: none;
+        display: block;
+        text-align: left;
+        &:hover {
+          background-color: $color-primary_color_hover;
+          color: white;
+        }
+      }
     }
-  }
-}
-.dropdown-content {
-  display: none;
-  position: absolute;
-  background-color: #f9f9f9;
-  min-width: 160px;
-  box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
-  border-radius: 8px;
-  z-index: 1;
-  a {
-    float: none;
-    color: black;
-    padding: 12px 16px;
-    text-decoration: none;
-    display: block;
-    text-align: left;
-    &:hover {
-      background-color: $color-primary_color_hover;
-      color: white;
+
+    .icon {
+      cursor: pointer;
+      display: none;
     }
-  }
-}
 
-.icon {
-  cursor: pointer;
-  display: none;
-}
-
-@media only screen and (max-width: 768px) {
-  .icon {
-    cursor: pointer;
-    display: block;
+    @media only screen and (max-width: 768px) {
+      .icon {
+        cursor: pointer;
+        display: block;
+      }
+    }
   }
 }

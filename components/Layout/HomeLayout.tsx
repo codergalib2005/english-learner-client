@@ -25,11 +25,15 @@ const HomeLayout = ({ children }: layoutChildren) => {
         <Header show={show} setShow={setShow} />
         <div className="content_layout_wrapper">
           {/* Content */}
-          <main className="content_box_parent">{children}</main>
+          <main
+            className={`${
+              show ? "content_box_parent" : "content_box_parent_0"
+            }`}
+          >
+            {children}
+          </main>
           {/* Right Side or Adds Side */}
-          <div className="content_box_ads_side">
-            <AddsSide />
-          </div>
+          <div className="content_box_ads_side">{/* <AddsSide /> */}</div>
         </div>
         <Footer />
       </div>

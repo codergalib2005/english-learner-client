@@ -1,7 +1,7 @@
 .product-ards {
   display: grid;
   grid-template-columns: repeat(1, 1fr);
-
+   z-index:0;
   @include media-responsive(sm) {
     display: grid;
     grid-template-columns: repeat(1, 1fr);
@@ -19,14 +19,15 @@
   }
 }
 .product-card {
-  width: 250px;
+  width: 200px;
   position: relative;
   box-shadow: 0 2px 7px #dfdfdf;
+
   margin: 30px auto;
   background: #fafafa;
   border-radius: 0 0 10px 10px;
-  @include media-responsive(xsm) {
-    width: 200px;
+  @include media-responsive(sm) {
+    width: 250px;
     position: relative;
     box-shadow: 0 2px 7px #dfdfdf;
     margin: 32px auto;
