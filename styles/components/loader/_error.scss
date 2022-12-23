@@ -1,0 +1,16 @@
+.error {
+    background: $color-bright-gray;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100%;
+    span{
+        background: $color-white;
+        padding: 12px;
+        border-radius: 4px;
+        box-shadow: $box_shadow;
+        color: $color-red;
+        font-weight: 600;
+        letter-spacing: 1px;
+    }
+}

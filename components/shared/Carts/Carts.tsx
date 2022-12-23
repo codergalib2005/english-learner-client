@@ -2,28 +2,71 @@ import Image from "next/image";
 import Link from "next/link";
 import React from "react";
 import { services } from "../../../fakeData/services";
+import bookimg from "../../../public/images/book.jpeg";
+import { BsStopwatch } from "react-icons/bs";
+import { TfiWorld } from "react-icons/tfi";
+import { BsFillBookmarkFill } from "react-icons/bs";
 
 const Carts: React.FC = () => {
   return (
-    <div className="carts">
-      {services.map((service) => (
-        <div key={service.id} className="cart">
-          <Link className="cart-link" href="/">
-            <div className="img-ring">
+    <div className="product-ards">
+      {[1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12].map((_, index) => (
+        <div key={index} className="product-card">
+          <div className="badge">Hot</div>
+          <div className="product-tumb">
             <Image
-              className="cart-img"
-              src={service.img}
+              className="img"
+              src={bookimg}
               alt=""
               width={100}
               height={100}
             />
+          </div>
+          <div className="product-details">
+            <span className="product-catagory">Women,bag</span>
+            <div className="product-tittle">
+            <h4>
+              <a href="">Women leather bag</a>
+            </h4>
+            <span>
+              <BsFillBookmarkFill />
+            </span>
             </div>
-            <h4>{service.name}</h4>
-          </Link>
-          <p>{service.topic}</p>
+            <p>
+              Lorem ipsum dolor sit amet, consectetur adipisicing elit. Vero,
+              possimus nostrum!
+            </p>
+            <div className="product-bottom-details">
+              <div className="product-price">
+                <span>
+                  <BsStopwatch className="icons" /> 24 Hours
+                </span>
+              </div>
+              <div className="product-price">
+                <span>
+                  <TfiWorld className="icons" /> Language
+                </span>
+              </div>
+            </div>
+          </div>
         </div>
       ))}
     </div>
   );
 };
 export default Carts;
+// <div key={service.id} className="cart">
+//   <Link className="cart-link" href="/">
+//     <div className="img-ring">
+//     <Image
+//       className="cart-img"
+//       src={service.img}
+//       alt=""
+//       width={100}
+//       height={100}
+//     />
+//     </div>
+//     <h4>{service.name}</h4>
+//   </Link>
+//   <p>{service.topic}</p>
+// </div>
