@@ -29,7 +29,7 @@ const Header: React.FC = () => {
           </div>
         </div>
 
-        <a href="#">Blog</a>
+        <a href="/blogDetails">Blog</a>
         <div className="dropdown">
           <button className="dropbtn">
             About
