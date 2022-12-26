@@ -6,7 +6,6 @@ export const poets = [
         birthplace: "Jorasanko Thakurbari, Kolkata, India",
         description: "Rabindranath Tagore FRAS was a Bengali polymath who worked as a poet, writer, playwright, composer, philosopher, social reformer and painter. He reshaped Bengali literature and music as well as Indian art with Contextual Modernism in the late 19th and early 20th centuries worked as a poet, writer, playwright, composer, philosopher, social reformer and painter. He reshaped Bengali literature and music as well as Indian art with Contextual Modernism in the late 19th and early 20th centuries.He reshaped Bengali literature and music as well as Indian art with Contextual Modernism in the late 19th and early 20th centuries.",
         birthyear: 1861,
-        booksnumber: 230,
         famouspoem: "Gitanjali",
     },
     {
@@ -15,8 +14,7 @@ export const poets = [
         image: "https://i.ibb.co/rfVKfYy/Islam-Kazi-Nazrul.jpg",
         birthplace: "Churulia, India",
         description: "Kazi Nazrul Islam was a Bengali poet, writer, musician, and is the national poet of Bangladesh. Nazrul is regarded as one of the greatest poets in Bengali literature.worked as a poet, writer, playwright, composer, philosopher, social reformer and painter. He reshaped Bengali literature and music as well as Indian art with Contextual Modernism in the late 19th and early 20th centuries.worked as a poet, writer, playwright, composer, philosopher, social reformer and painter. He reshaped Bengali literature and music as well as Indian art with Contextual Modernism in the late 19th and early 20th centuries.He reshaped Bengali literature and music as well as Indian art with Contextual Modernism in the late 19th and early 20th centuries.",
-        birthyear: 1899,
-        booksnumber: 161,
+        birthyear: 1899,      
         famouspoem: "Bidrohi",
 
     },
@@ -27,7 +25,6 @@ export const poets = [
         birthplace: "Jessore District",
         description: "Michael Madhusudan Dutt was a Bengali poet and playwright. He is considered one of the pioneers of Bengali literature.worked as a poet, writer, playwright, composer, philosopher, social reformer and painter. He reshaped Bengali literature and music as well as Indian art with Contextual Modernism in the late 19th and early 20th centuries.He reshaped Bengali literature and music as well as Indian art with Contextual Modernism in the late 19th and early 20th centuries.He reshaped Bengali literature and music as well as Indian art with Contextual Modernism in the late 19th and early 20th centuries.",
         birthyear: 1824,
-        booksnumber: 114,
         famouspoem: "Kapotakkho Nod",
     },
     {
@@ -37,7 +34,6 @@ export const poets = [
         birthplace: "Tahare Pore Mone",
         description: "Begum Sufia Kamal was a Bangladeshi poet, feminist leader, and political activist. She took part in the Bengali nationalist movement of the 1950s and civil society leader in independent Bangladesh. She led feminist activism and was a president of Bangladesh Mahila Parishad.He reshaped Bengali literature and music as well as Indian art with Contextual Modernism in the late 19th and early 20th centuries.He reshaped Bengali literature and music as well as Indian art with Contextual Modernism in the late 19th and early 20th centuries.He reshaped Bengali literature and music as well as Indian art with Contextual Modernism in the late 19th and early 20th centuries.",
         birthyear: 1911,
-        booksnumber: 95,
         famouspoem: "Kapotakkho Nod",
     },
     {
@@ -47,7 +43,6 @@ export const poets = [
         birthplace: "Boston",
         description: "Edgar Allan Poe was an American writer, poet, editor, and literary critic. Poe is best known for his poetry and short stories, particularly his tales of mystery and the macabre. He is widely regarded as a central figure of Romanticism in the United States, and of American literature.He reshaped Bengali literature and music as well as Indian art with Contextual Modernism in the late 19th and early 20th centuries.He reshaped Bengali literature and music as well as Indian art with Contextual Modernism in the late 19th and early 20th centuries.He reshaped Bengali literature and music as well as Indian art with Contextual Modernism in the late 19th and early 20th centuries.He reshaped Bengali literature and music as well as Indian art with Contextual Modernism in the late 19th and early 20th centuries.",
         birthyear: 1809,
-        booksnumber: 33,
         famouspoem: "The Raven",
     },
     {
@@ -57,7 +52,6 @@ export const poets = [
         birthplace: "Stratford-upon-Avon, England",
         description: "William Shakespeare was an American writer, poet, editor, and literary critic. Poe is best known for his poetry and short stories, particularly his tales of mystery and the macabre. He is widely regarded as a central figure of Romanticism in the United States, and of American literature.He reshaped Bengali literature and music as well as Indian art with Contextual Modernism in the late 19th and early 20th centuries.He reshaped Bengali literature and music as well as Indian art with Contextual Modernism in the late 19th and early 20th centuries.He reshaped Bengali literature and music as well as Indian art with Contextual Modernism in the late 19th and early 20th centuries.",
         birthyear: 1564,
-        booksnumber: 154,
         famouspoem: "Sonnet XVIII",
     },
     {
@@ -67,7 +61,6 @@ export const poets = [
         birthplace: "St. Louis",
         description: "William Shakespeare was an American writer, poet, editor, and literary critic. Poe is best known for his poetry and short stories, particularly his tales of mystery and the macabre. He is widely regarded as a central figure of Romanticism in the United States, and of American literature.He reshaped Bengali literature and music as well as Indian art with Contextual Modernism in the late 19th and early 20th centuries.He reshaped Bengali literature and music as well as Indian art with Contextual Modernism in the late 19th and early 20th centuries.He reshaped Bengali literature and music as well as Indian art with Contextual Modernism in the late 19th and early 20th centuries.",
         birthyear: 1928,
-        booksnumber: 72,
         famouspoem: "On the Pulse of Morning",
     },
     {
@@ -77,7 +70,6 @@ export const poets = [
         birthplace: "Chicago",
         description: "William Shakespeare was an American writer, poet, editor, and literary critic. Poe is best known for his poetry and short stories, particularly his tales of mystery and the macabre. He is widely regarded as a central figure of Romanticism in the United States, and of American literature.He reshaped Bengali literature and music as well as Indian art with Contextual Modernism in the late 19th and early 20th centuries.He reshaped Bengali literature and music as well as Indian art with Contextual Modernism in the late 19th and early 20th centuries.He reshaped Bengali literature and music as well as Indian art with Contextual Modernism in the late 19th and early 20th centuries.",
         birthyear: 1930,
-        booksnumber: 84,
         famouspoem: "Where the Sidewalk Ends",
     },
     {
@@ -87,7 +79,6 @@ export const poets = [
         birthplace: "San Francisco",
         description: "William Shakespeare was an American writer, poet, editor, and literary critic. Poe is best known for his poetry and short stories, particularly his tales of mystery and the macabre. He is widely regarded as a central figure of Romanticism in the United States, and of American literature.He reshaped Bengali literature and music as well as Indian art with Contextual Modernism in the late 19th and early 20th centuries.He reshaped Bengali literature and music as well as Indian art with Contextual Modernism in the late 19th and early 20th centuries.",
         birthyear: 1874,
-        booksnumber: 92,
         famouspoem: "The Road Not Taken",
     },
     {
@@ -97,7 +88,6 @@ export const poets = [
         birthplace: "Parral, Chile",
         description: "William Shakespeare was an American writer, poet, editor, and literary critic. Poe is best known for his poetry and short stories, particularly his tales of mystery and the macabre. He is widely regarded as a central figure of Romanticism in the United States, and of American literature.He reshaped Bengali literature and music as well as Indian art with Contextual Modernism in the late 19th and early 20th centuries.He reshaped Bengali literature and music as well as Indian art with Contextual Modernism in the late 19th and early 20th centuries.",
         birthyear: 1904,
-        booksnumber: 50,
         famouspoem: "I Do Not Love You Except Because I Love You",
     },
     {
@@ -107,7 +97,6 @@ export const poets = [
         birthplace: "Cambridge, Massachusetts",
         description: "William Shakespeare was an American writer, poet, editor, and literary critic. Poe is best known for his poetry and short stories, particularly his tales of mystery and the macabre. He is widely regarded as a central figure of Romanticism in the United States, and of American literature.He reshaped Bengali literature and music as well as Indian art with Contextual Modernism in the late 19th and early 20th centuries.He reshaped Bengali literature and music as well as Indian art with Contextual Modernism in the late 19th and early 20th centuries.He reshaped Bengali literature and music as well as Indian art with Contextual Modernism in the late 19th and early 20th centuries.",
         birthyear: 1894,
-        booksnumber: 78,
         famouspoem: "i carry your heart with me",
     },
     {
@@ -117,7 +106,6 @@ export const poets = [
         birthplace: "London",
         description: "William Shakespeare was an American writer, poet, editor, and literary critic. Poe is best known for his poetry and short stories, particularly his tales of mystery and the macabre. He is widely regarded as a central figure of Romanticism in the United States, and of American literature.He reshaped Bengali literature and music as well as Indian art with Contextual Modernism in the late 19th and early 20th centuries.He reshaped Bengali literature and music as well as Indian art with Contextual Modernism in the late 19th and early 20th centuries.He reshaped Bengali literature and music as well as Indian art with Contextual Modernism in the late 19th and early 20th centuries.",
         birthyear: 1795,
-        booksnumber: 121,
         famouspoem: "A Thing of Beauty",
     },
     {
@@ -127,7 +115,128 @@ export const poets = [
         birthplace: "Khorasan present-day Afghanistan",
         description: "William Shakespeare was an American writer, poet, editor, and literary critic. Poe is best known for his poetry and short stories, particularly his tales of mystery and the macabre. He is widely regarded as a central figure of Romanticism in the United States, and of American literature.He reshaped Bengali literature and music as well as Indian art with Contextual Modernism in the late 19th and early 20th centuries.He reshaped Bengali literature and music as well as Indian art with Contextual Modernism in the late 19th and early 20th centuries.He reshaped Bengali literature and music as well as Indian art with Contextual Modernism in the late 19th and early 20th centuries.",
         birthyear: 1207,
-        booksnumber: 147,
         famouspoem: "Masnavi-ye Ma’navi",
-    }
+    },
+    {
+        id: 14,
+        name: 'Albert Einstein',
+        image: 'https://i.ibb.co/VvFcmM1/2da94bdb2f624acd59235f74dc4d3aee.jpg',
+        birthplace: 'German',
+        description: 'Albert Einstein was a German-born theoretical physicist, widely acknowledged to be one of the greatest and most influential physicists of all time. Einstein is best known for developing the theory of relativity, but he also made important contributions to the development of the theory of quantum mechanics.',
+        birthyear: 1879-1955,
+
+
+    },
+    {
+        id: 15,
+        name: 'Galileo Galilei',
+        image: 'https://i.ibb.co/jRbdLQD/Justus-Sustermans-Portrait-of-Galileo-Galilei-1636.jpg',
+        birthplace: 'Pisa, Italy',
+        description: 'The father of modern science, Galileo discovered the first moons ever known to orbit another planet and that the Milky Way is .. Born in Pisa, Italy in 1564, Galileo is called as the father of modern science because of his discoveries in astronomy and Galileo discovered the first moons ever known to orbit another planet and that the Milky Way i.Galileo discovered the first moons ever known to orbit another planet and that the Milky Way i ',
+        birthyear: 1564-1642,
+
+
+    },
+    {
+        id: 16,
+        name: 'Sir Isaac Newton',
+        image: 'https://i.ibb.co/2YcNVNg/gettyimages-113494597-612x612.jpg',
+        birthplace: '',
+        description: 'Sir Isaac Newton PRS was an English mathematician, physicist, astronomer, alchemist, theologian, and author, widely recognised as one of the greatest mathematicians and physicists and among the most influential scientists of all time. He was a key figure in the philosophical revolution. known as the EnlightenmentProfoundly changed our understanding of nature with his law of universal gravitation and his laws of motion; invented calculus.is best remembered for his formulation of the three laws of motion',
+        birthyear: 1643-1727,
+
+
+    },
+    {
+        id: 17,
+        name: 'Archimedes',
+        image: 'https://i.ibb.co/74VJftn/Archimedes.jpg',
+        birthplace: 'Greek',
+        description: 'Archimedes of Syracuse was a Greek mathematician, physicist, engineer, astronomer, and inventor from the ancient city of Syracuse in Sicily. Although few details of his life are known, he is regarded as one of the leading scientists in classical antiquity.. Founded the sciences of mechanics and hydrostatics, calculated pi precisely, devised the law of exponents, created new.conceived in 287 BC, is among the greatest scientists who made breakthroughs in both theory and practice. He established the concept of .',
+        birthyear: 287-212,
+    },
+    {
+        id: 18,
+        name: 'Galileo Galilei',
+        image: 'https://i.ibb.co/jRbdLQD/Justus-Sustermans-Portrait-of-Galileo-Galilei-1636.jpg',
+        birthplace: 'Pisa, Italy',
+        description: 'The father of modern science, Galileo discovered the first moons ever known to orbit another planet and that the Milky Way is .. Born in Pisa, Italy in 1564, Galileo is called as the father of modern science because of his discoveries in astronomy and Galileo discovered the first moons ever known to orbit another planet and that the Milky Way i.Galileo discovered the first moons ever known to orbit another planet and that the Milky Way i ',
+        birthyear: 1564-1642,
+
+
+    },
+    {
+        id: 19,
+        name: 'Sir Isaac Newton',
+        image: 'https://i.ibb.co/2YcNVNg/gettyimages-113494597-612x612.jpg',
+        birthplace: '',
+        description: 'Sir Isaac Newton PRS was an English mathematician, physicist, astronomer, alchemist, theologian, and author, widely recognised as one of the greatest mathematicians and physicists and among the most influential scientists of all time. He was a key figure in the philosophical revolution. known as the EnlightenmentProfoundly changed our understanding of nature with his law of universal gravitation and his laws of motion; invented calculus.is best remembered for his formulation of the three laws of motion',
+        birthyear: 1643-1727,
+
+
+    },
+    {
+        id: 20,
+        name: 'Archimedes',
+        image: 'https://i.ibb.co/74VJftn/Archimedes.jpg',
+        birthplace: 'Greek',
+        description: 'Archimedes of Syracuse was a Greek mathematician, physicist, engineer, astronomer, and inventor from the ancient city of Syracuse in Sicily. Although few details of his life are known, he is regarded as one of the leading scientists in classical antiquity.. Founded the sciences of mechanics and hydrostatics, calculated pi precisely, devised the law of exponents, created new.conceived in 287 BC, is among the greatest scientists who made breakthroughs in both theory and practice. He established the concept of .',
+        birthyear: 287-212,
+    },
+    {
+        id: 21,
+        name: 'Galileo Galilei',
+        image: 'https://i.ibb.co/jRbdLQD/Justus-Sustermans-Portrait-of-Galileo-Galilei-1636.jpg',
+        birthplace: 'Pisa, Italy',
+        description: 'The father of modern science, Galileo discovered the first moons ever known to orbit another planet and that the Milky Way is .. Born in Pisa, Italy in 1564, Galileo is called as the father of modern science because of his discoveries in astronomy and Galileo discovered the first moons ever known to orbit another planet and that the Milky Way i.Galileo discovered the first moons ever known to orbit another planet and that the Milky Way i ',
+        birthyear: 1564-1642,
+
+
+    },
+    {
+        id: 22,
+        name: 'Sir Isaac Newton',
+        image: 'https://i.ibb.co/2YcNVNg/gettyimages-113494597-612x612.jpg',
+        birthplace: '',
+        description: 'Sir Isaac Newton PRS was an English mathematician, physicist, astronomer, alchemist, theologian, and author, widely recognised as one of the greatest mathematicians and physicists and among the most influential scientists of all time. He was a key figure in the philosophical revolution. known as the EnlightenmentProfoundly changed our understanding of nature with his law of universal gravitation and his laws of motion; invented calculus.is best remembered for his formulation of the three laws of motion',
+        birthyear: 1643-1727,
+
+
+    },
+    {
+        id: 23,
+        name: 'Archimedes',
+        image: 'https://i.ibb.co/74VJftn/Archimedes.jpg',
+        birthplace: 'Greek',
+        description: 'Archimedes of Syracuse was a Greek mathematician, physicist, engineer, astronomer, and inventor from the ancient city of Syracuse in Sicily. Although few details of his life are known, he is regarded as one of the leading scientists in classical antiquity.. Founded the sciences of mechanics and hydrostatics, calculated pi precisely, devised the law of exponents, created new.conceived in 287 BC, is among the greatest scientists who made breakthroughs in both theory and practice. He established the concept of .',
+        birthyear: 287-212,
+    },
+    {
+        id: 24,
+        name: 'Galileo Galilei',
+        image: 'https://i.ibb.co/jRbdLQD/Justus-Sustermans-Portrait-of-Galileo-Galilei-1636.jpg',
+        birthplace: 'Pisa, Italy',
+        description: 'The father of modern science, Galileo discovered the first moons ever known to orbit another planet and that the Milky Way is .. Born in Pisa, Italy in 1564, Galileo is called as the father of modern science because of his discoveries in astronomy and Galileo discovered the first moons ever known to orbit another planet and that the Milky Way i.Galileo discovered the first moons ever known to orbit another planet and that the Milky Way i ',
+        birthyear: 1564-1642,
+
+
+    },
+    {
+        id: 25,
+        name: 'Sir Isaac Newton',
+        image: 'https://i.ibb.co/2YcNVNg/gettyimages-113494597-612x612.jpg',
+        birthplace: '',
+        description: 'Sir Isaac Newton PRS was an English mathematician, physicist, astronomer, alchemist, theologian, and author, widely recognised as one of the greatest mathematicians and physicists and among the most influential scientists of all time. He was a key figure in the philosophical revolution. known as the EnlightenmentProfoundly changed our understanding of nature with his law of universal gravitation and his laws of motion; invented calculus.is best remembered for his formulation of the three laws of motion',
+        birthyear: 1643-1727,
+
+
+    },
+    {
+        id: 26,
+        name: 'Archimedes',
+        image: 'https://i.ibb.co/74VJftn/Archimedes.jpg',
+        birthplace: 'Greek',
+        description: 'Archimedes of Syracuse was a Greek mathematician, physicist, engineer, astronomer, and inventor from the ancient city of Syracuse in Sicily. Although few details of his life are known, he is regarded as one of the leading scientists in classical antiquity.. Founded the sciences of mechanics and hydrostatics, calculated pi precisely, devised the law of exponents, created new.conceived in 287 BC, is among the greatest scientists who made breakthroughs in both theory and practice. He established the concept of .',
+        birthyear: 287-212,
+    },
 ]
