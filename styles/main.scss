@@ -26,6 +26,10 @@ body {
 @import "./components/shared/header";
 @import "./components/shared/footer";
 
+//IMPORT FROM LOADER FOLDER
+@import "./components/loader/birdCartLoader";
+@import "./components/loader/error";
+
 // IMPORT FROM LAYOUT FOLDER
 @import "./layout/homeLayout";
 
@@ -45,15 +49,19 @@ body {
 @import "./pages/numberSignIn/number";
 @import "./pages/numberSignIn/otp";
 @import "./pages/birds";
+@import "./pages/bolgDetails";
 
 //Number Sign In
 
+<<<<<<< HEAD
 
 
 
 // fruits page
 @import "./components/fruits/fruitsCard";
 
+=======
+>>>>>>> shipon
 // Games page
 @import "./components/games/banner";
 @import "./components/games/cardCarousel";
@@ -62,4 +70,8 @@ body {
 @import "./components/games/hot_news";
 @import "./components/games/game_according_card";
 @import "./components/games/game_faq";
+<<<<<<< HEAD
 @import "./components/games/extra_footer";
+=======
+@import "./components/games/extra_footer";
+>>>>>>> shipon

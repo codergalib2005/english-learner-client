@@ -4,6 +4,7 @@
   justify-content: flex-start;
 
   .birds {
+    width: 70%;
     .birds_pages_info {
       @include media-responsive(xsm){
         display: grid;

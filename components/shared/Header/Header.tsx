@@ -1,4 +1,5 @@
 import Head from "next/head";
+import Link from "next/link";
 import React, { useState } from "react";
 
 const Header: React.FC = () => {
@@ -10,7 +11,7 @@ const Header: React.FC = () => {
       </Head>
 
       <nav className="navbar">
-        <a href="#home">Home</a>
+        <Link href="/">Home</Link>
 
         <div className="dropdown">
           <button className="dropbtn">
@@ -22,10 +23,13 @@ const Header: React.FC = () => {
             <a href="#">American English</a>
             <a href="#">Talk your Friends</a>
             <a href="#">Find Partner</a>
+            <Link href="/birds">Birds</Link>
+            <Link href="/animals">Animals</Link>
+            <Link href="/fruits">Fruits</Link>
           </div>
         </div>
 
-        <a href="#">Blog</a>
+        <a href="/blogDetails">Blog</a>
         <div className="dropdown">
           <button className="dropbtn">
             About

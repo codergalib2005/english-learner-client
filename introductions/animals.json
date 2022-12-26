@@ -1,0 +1,122 @@
+[
+    {
+        "id": 1,
+        "name": "Horin",
+        "image": "https://img.freepik.com/free-photo/selective-focus-shot-beautiful-impala-captured-african-jungles_181624-6061.jpg",
+        "category": "animals"
+      },
+      {
+        "id": 2,
+        "name": "Jirap",
+        "image": "https://img.freepik.com/free-photo/selective-focus-shot-beautiful-zebra-field-covered-with-green-grass_181624-5968.jpg",
+        "category": "animals"
+      },
+      {
+        "id": 3,
+        "name": "Hati",
+        "image": "https://img.freepik.com/free-photo/elephant-walking-road_181624-23124.jpg",
+        "category": "animals"
+      },
+      {
+        "id": 4,
+        "name": "Taiger",
+        "image": "https://img.freepik.com/free-photo/young-leopard-portrait_167946-101.jpg",
+        "category": "animals"
+      },
+    {
+        "id": 5,
+        "name": "Horin",
+        "image": "https://img.freepik.com/free-photo/selective-focus-shot-beautiful-impala-captured-african-jungles_181624-6061.jpg",
+        "category": "animals"
+      },
+      {
+        "id": 6,
+        "name": "Jirap",
+        "image": "https://img.freepik.com/free-photo/selective-focus-shot-beautiful-zebra-field-covered-with-green-grass_181624-5968.jpg",
+        "category": "animals"
+      },
+      {
+        "id": 7,
+        "name": "Hati",
+        "image": "https://img.freepik.com/free-photo/elephant-walking-road_181624-23124.jpg",
+        "category": "animals"
+      },
+      {
+        "id": 8,
+        "name": "Taiger",
+        "image": "https://img.freepik.com/free-photo/young-leopard-portrait_167946-101.jpg",
+        "category": "animals"
+      },
+    {
+        "id": 9,
+        "name": "Horin",
+        "image": "https://img.freepik.com/free-photo/selective-focus-shot-beautiful-impala-captured-african-jungles_181624-6061.jpg",
+        "category": "animals"
+      },
+      {
+        "id": 10,
+        "name": "Jirap",
+        "image": "https://img.freepik.com/free-photo/selective-focus-shot-beautiful-zebra-field-covered-with-green-grass_181624-5968.jpg",
+        "category": "animals"
+      },
+      {
+        "id": 11,
+        "name": "Hati",
+        "image": "https://img.freepik.com/free-photo/elephant-walking-road_181624-23124.jpg",
+        "category": "animals"
+      },
+      {
+        "id": 12,
+        "name": "Taiger",
+        "image": "https://img.freepik.com/free-photo/young-leopard-portrait_167946-101.jpg",
+        "category": "animals"
+      },
+    {
+        "id": 13,
+        "name": "Horin",
+        "image": "https://img.freepik.com/free-photo/selective-focus-shot-beautiful-impala-captured-african-jungles_181624-6061.jpg",
+        "category": "animals"
+      },
+      {
+        "id": 14,
+        "name": "Jirap",
+        "image": "https://img.freepik.com/free-photo/selective-focus-shot-beautiful-zebra-field-covered-with-green-grass_181624-5968.jpg",
+        "category": "animals"
+      },
+      {
+        "id": 15,
+        "name": "Hati",
+        "image": "https://img.freepik.com/free-photo/elephant-walking-road_181624-23124.jpg",
+        "category": "animals"
+      },
+      {
+        "id": 16,
+        "name": "Taiger",
+        "image": "https://img.freepik.com/free-photo/young-leopard-portrait_167946-101.jpg",
+        "category": "animals"
+      },
+    {
+        "id": 17,
+        "name": "Horin",
+        "image": "https://img.freepik.com/free-photo/selective-focus-shot-beautiful-impala-captured-african-jungles_181624-6061.jpg",
+        "category": "animals"
+      },
+      {
+        "id": 18,
+        "name": "Jirap",
+        "image": "https://img.freepik.com/free-photo/selective-focus-shot-beautiful-zebra-field-covered-with-green-grass_181624-5968.jpg",
+        "category": "animals"
+      },
+      {
+        "id": 19,
+        "name": "Hati",
+        "image": "https://img.freepik.com/free-photo/elephant-walking-road_181624-23124.jpg",
+        "category": "animals"
+      },
+      {
+        "id": 20,
+        "name": "Taiger",
+        "image": "https://img.freepik.com/free-photo/young-leopard-portrait_167946-101.jpg",
+        "category": "animals"
+      }
+]

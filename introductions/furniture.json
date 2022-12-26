@@ -1,0 +1,127 @@
+[
+    {
+        "id": 1,
+        "name": "Armchair",
+        "image": "https://img.freepik.com/free-psd/elegant-grey-armchair-with-cushion-isolated_176382-115.jpg",
+        "category": "furniture"
+    },
+
+    {
+        "id": 2,
+        "name": "Living Room",
+        "image": "https://img.freepik.com/free-photo/scandinavian-living-room-interior-design-zoom-background_53876-143147.jpg",
+        "category": "furniture"
+    },
+    {
+        "id": 3,
+        "name": "Studio Room",
+        "image": "https://img.freepik.com/free-photo/dining-area-comfortable-studio-flat-hotel-room_1262-12324.jpg",
+        "category": "furniture"
+    },
+    {
+        "id": 4,
+        "name": "Hanging Chair",
+        "image": "https://img.freepik.com/free-vector/wicker-hanging-chairs-swing-hanging-chain-with-cushions_1284-45541.jpg",
+        "category": "furniture"
+    },
+    {
+        "id": 1,
+        "name": "Armchair",
+        "image": "https://img.freepik.com/free-psd/elegant-grey-armchair-with-cushion-isolated_176382-115.jpg",
+        "category": "furniture"
+    },
+
+    {
+        "id": 2,
+        "name": "Living Room",
+        "image": "https://img.freepik.com/free-photo/scandinavian-living-room-interior-design-zoom-background_53876-143147.jpg",
+        "category": "furniture"
+    },
+    {
+        "id": 3,
+        "name": "Studio Room",
+        "image": "https://img.freepik.com/free-photo/dining-area-comfortable-studio-flat-hotel-room_1262-12324.jpg",
+        "category": "furniture"
+    },
+    {
+        "id": 4,
+        "name": "Hanging Chair",
+        "image": "https://img.freepik.com/free-vector/wicker-hanging-chairs-swing-hanging-chain-with-cushions_1284-45541.jpg",
+        "category": "furniture"
+    },
+    {
+        "id": 1,
+        "name": "Armchair",
+        "image": "https://img.freepik.com/free-psd/elegant-grey-armchair-with-cushion-isolated_176382-115.jpg",
+        "category": "furniture"
+    },
+
+    {
+        "id": 2,
+        "name": "Living Room",
+        "image": "https://img.freepik.com/free-photo/scandinavian-living-room-interior-design-zoom-background_53876-143147.jpg",
+        "category": "furniture"
+    },
+    {
+        "id": 3,
+        "name": "Studio Room",
+        "image": "https://img.freepik.com/free-photo/dining-area-comfortable-studio-flat-hotel-room_1262-12324.jpg",
+        "category": "furniture"
+    },
+    {
+        "id": 4,
+        "name": "Hanging Chair",
+        "image": "https://img.freepik.com/free-vector/wicker-hanging-chairs-swing-hanging-chain-with-cushions_1284-45541.jpg",
+        "category": "furniture"
+    },
+    {
+        "id": 1,
+        "name": "Armchair",
+        "image": "https://img.freepik.com/free-psd/elegant-grey-armchair-with-cushion-isolated_176382-115.jpg",
+        "category": "furniture"
+    },
+
+    {
+        "id": 2,
+        "name": "Living Room",
+        "image": "https://img.freepik.com/free-photo/scandinavian-living-room-interior-design-zoom-background_53876-143147.jpg",
+        "category": "furniture"
+    },
+    {
+        "id": 3,
+        "name": "Studio Room",
+        "image": "https://img.freepik.com/free-photo/dining-area-comfortable-studio-flat-hotel-room_1262-12324.jpg",
+        "category": "furniture"
+    },
+    {
+        "id": 4,
+        "name": "Hanging Chair",
+        "image": "https://img.freepik.com/free-vector/wicker-hanging-chairs-swing-hanging-chain-with-cushions_1284-45541.jpg",
+        "category": "furniture"
+    },
+    {
+        "id": 1,
+        "name": "Armchair",
+        "image": "https://img.freepik.com/free-psd/elegant-grey-armchair-with-cushion-isolated_176382-115.jpg",
+        "category": "furniture"
+    },
+
+    {
+        "id": 2,
+        "name": "Living Room",
+        "image": "https://img.freepik.com/free-photo/scandinavian-living-room-interior-design-zoom-background_53876-143147.jpg",
+        "category": "furniture"
+    },
+    {
+        "id": 3,
+        "name": "Studio Room",
+        "image": "https://img.freepik.com/free-photo/dining-area-comfortable-studio-flat-hotel-room_1262-12324.jpg",
+        "category": "furniture"
+    },
+    {
+        "id": 4,
+        "name": "Hanging Chair",
+        "image": "https://img.freepik.com/free-vector/wicker-hanging-chairs-swing-hanging-chain-with-cushions_1284-45541.jpg",
+        "category": "furniture"
+    }
+]
