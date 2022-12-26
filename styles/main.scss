@@ -53,15 +53,9 @@ body {
 
 //Number Sign In
 
-<<<<<<< HEAD
 
 
 
-// fruits page
-@import "./components/fruits/fruitsCard";
-
-=======
->>>>>>> shipon
 // Games page
 @import "./components/games/banner";
 @import "./components/games/cardCarousel";
@@ -70,8 +64,8 @@ body {
 @import "./components/games/hot_news";
 @import "./components/games/game_according_card";
 @import "./components/games/game_faq";
-<<<<<<< HEAD
 @import "./components/games/extra_footer";
-=======
-@import "./components/games/extra_footer";
->>>>>>> shipon
+
+// Explore page
+@import "./components/Explore_cards/explore_cards";
+@import "./components/Explore_cards/explore_card";

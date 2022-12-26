@@ -26,6 +26,8 @@
     "react-paginate": "^8.1.4",
     "react-phone-number-input": "^3.2.13",
     "react-redux": "^8.0.5",
+    "react-simple-star-rating": "^5.1.7",
+    "react-star-ratings": "^2.3.0",
     "sass": "^1.55.0",
     "scss": "^0.2.4",
     "swiper": "^8.4.5",

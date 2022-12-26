@@ -1,0 +1,36 @@
+.explore_card_component {
+  max-width: 74rem;
+  width: 90%;
+  margin: 5px auto;
+
+  .head_title_com {
+    text-align: center;
+    margin: 1.5rem 0px;
+    font-size: $text-extra-headline-size;
+  }
+
+  .explore_cards {
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+    gap: 5px;
+    justify-items: center;
+    @include media-responsive(sm) {
+      display: grid;
+      grid-template-columns: repeat(2, 1fr);
+      gap: 10px;
+      justify-items: center;
+    }
+    @include media-responsive(md) {
+      display: grid;
+      grid-template-columns: repeat(2, 1fr);
+      gap: 10px;
+      justify-items: center;
+    }
+    @include media-responsive(lg) {
+      display: grid;
+      grid-template-columns: repeat(3, 1fr);
+      gap: 15px;
+      justify-items: center;
+    }
+  }
+}
