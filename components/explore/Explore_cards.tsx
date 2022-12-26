@@ -51,6 +51,7 @@ const Explore_cards: React.FC = () => {
 
   return (
     <div className="explore_card_component">
+      <h3 className="head_title_com">Read blogs and growth your speaking ! </h3>
       <div className="explore_cards">
         {cards.map((card) => (
           <Explore_card {...card} key={card.id} />

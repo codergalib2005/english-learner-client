@@ -16,9 +16,12 @@ const Explore_card: React.FC<explore_cardType> = (props: explore_cardType) => {
   const { id, title, instractor, rating, price, status, img } = props;
   return (
     <div className="explore_card">
-      <div className="explore_card_img">
-        <Image src={img} alt="" fill />
+      <div className="img_par">
+        <div className="explore_card_img">
+          <Image src={img} alt="" fill />
+        </div>
       </div>
+      <div>{status && <p className="status">Trending</p>}</div>
       <div className="card_texts">
         <div className="title_ins">
           <h2>{title}</h2>
