@@ -2,8 +2,13 @@
   margin: 5px 1.5rem;
   .according_heading {
     background-color: #010a36;
-    padding: 1rem 2.5rem;
+    padding: 1rem;
     border-radius: 5px 5px 0px 0px;
+    @include media-responsive(sm) {
+      background-color: #010a36;
+      padding: 1rem 2.5rem;
+      border-radius: 5px 5px 0px 0px;
+    }
 
     .according_title {
       display: flex;
@@ -12,11 +17,19 @@
 
       p {
         color: $color-bright-gray;
-        font-size: $text-base;
+        font-size: $text-small;
         font-family: $text-normal;
         font-weight: $font-700;
         letter-spacing: -0.3px;
         text-transform: uppercase;
+        @include media-responsive(sm) {
+          color: $color-bright-gray;
+          font-size: $text-base;
+          font-family: $text-normal;
+          font-weight: $font-700;
+          letter-spacing: -0.3px;
+          text-transform: uppercase;
+        }
       }
 
       span {
@@ -32,7 +45,20 @@
   }
 
   .show {
-    height: 130px;
+    height: 300px;
+    @include media-responsive(xsm) {
+      height: 450px;
+      padding: 1rem;
+    }
+    @include media-responsive(sm) {
+      height: 228px;
+    }
+    @include media-responsive(md) {
+      height: 150px;
+    }
+    @include media-responsive(lg) {
+      height: 140px;
+    }
     opacity: 1;
     padding: 1rem 2rem;
     background-color: #8077f5;
