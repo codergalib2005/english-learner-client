@@ -24,13 +24,13 @@
       display: grid;
       grid-template-columns: repeat(2, 1fr);
       gap: 10px;
-      justify-items: center;
+      // justify-items: center;
     }
     @include media-responsive(lg) {
       display: grid;
       grid-template-columns: repeat(3, 1fr);
       gap: 15px;
-      justify-items: center;
+      // justify-items: center;
     }
   }
 }

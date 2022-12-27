@@ -1,13 +1,15 @@
 .explore_card {
-  width: 250px;
   height: 350px;
+  width: 100%;
   margin: 5px 0px;
   box-shadow: 0px 15px 15px 10px $color-bright-gray;
   position: relative;
   cursor: pointer;
+  overflow: hidden;
   @include media-responsive(md) {
-    width: 300px;
+    width: 100%;
     margin: 5px 0px;
+    overflow: hidden;
     box-shadow: 0px 15px 15px 10px $color-bright-gray;
   }
 
@@ -28,13 +30,14 @@
     .explore_card_img {
       width: 100%;
       height: 150px;
+
       position: relative;
     }
   }
 
   &:hover .img_par {
-    padding: 0px 10px;
-    transition: all 200ms ease-in-out;
+    transition: transform 500ms ease-out;
+    transform: scale(1.1);
   }
   .card_texts {
     margin: 0 1rem;
