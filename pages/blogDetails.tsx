@@ -4,8 +4,13 @@ import { AiFillLinkedin } from "react-icons/ai";
 import { AiOutlineTwitter } from "react-icons/ai";
 import { ImCopy } from "react-icons/im";
 import Image from "next/image";
+import { Swiper, SwiperSlide } from "swiper/react";
+import SwiperCore, { Autoplay } from "swiper";
+import "swiper/css";
+import 'animate.css';
 
 const BlogDetails: React.FC = () => {
+  SwiperCore.use([Autoplay]);
   return (
     <div>
       <Header />
@@ -89,7 +94,7 @@ const BlogDetails: React.FC = () => {
                   hic nesciunt est eveniet?
                 </p>
               </div>
-              <div className="blog_detail-box">
+              <div className="blog_detail-box animate__fadeInUp">
                 <h5>Remember Reguler Maintance</h5>
                 <p>
                   Repudiandae doloribus temporibus consequatur animi quas
@@ -166,6 +171,46 @@ const BlogDetails: React.FC = () => {
                 </span>
               </div>
             </div>
+            <div className="releted_blog-title">
+            <h3>Related Article</h3>
+            <span>View All</span>
+            </div>
+            <Swiper
+              spaceBetween={70}
+              slidesPerView={4}
+              style={{marginLeft: "30px"}}
+              autoplay={{ delay: 2000 }}
+              loop={true}
+            >
+              <div className="releted_blog-cards">
+                {[1, 2, 3, 4, 5].map((_, index) => (
+                  <SwiperSlide>
+                    <div className="releted_blog-card">
+                      <div className="releted_blog-tumb">
+                        <Image
+                          className="img"
+                          src="https://img.freepik.com/free-photo/computer-screens-running-programming-code-empty-software-developing-agency-office-computers-parsing-data-algorithms-background-neural-network-servers-cloud-computing-data-room_482257-33353.jpg"
+                          alt=""
+                          width={100}
+                          height={100}
+                        />
+                      </div>
+                      <div className="releted_blog-details">
+                        <span className="releted_blog-catagory">
+                          Buy or Rent | 4 hour ago
+                        </span>
+                        <div className="releted_blog-tittle">
+                          <h3>
+                            <a href="">Three New Locations Across Some of</a>
+                          </h3>
+                        </div>
+                        <span className="blog_readNow">Reade Now</span>
+                      </div>
+                    </div>
+                  </SwiperSlide>
+                ))}
+              </div>
+            </Swiper>
           </div>
         </div>
         <div className="blog_addsSide">adds Side</div>

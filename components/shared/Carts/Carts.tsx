@@ -10,7 +10,7 @@ import { Tooltip } from 'antd';
 
 const Carts: React.FC = () => {
   return (
-    <div className="product-ards">
+    <div className="product-cards">
       {[1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12].map((_, index) => (
         <div key={index} className="product-card">
           <div className="badge">Hot</div>
