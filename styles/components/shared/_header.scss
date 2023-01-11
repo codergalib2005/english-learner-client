@@ -15,6 +15,13 @@
     align-items: center;
     height: 56px;
 
+    .nav_links_mobile {
+      padding: 0px 10px;
+      @include media-responsive(md) {
+        padding: 0px;
+      }
+    }
+
     .menu_icon {
       color: $color-bright-gray;
       font-size: $text-extra-large;
@@ -57,6 +64,7 @@
       position: absolute;
       display: block;
       justify-content: center;
+
       background-color: $color-primary_color;
       left: 0px;
       top: 56px;
@@ -113,10 +121,13 @@
         border: none;
         outline: none;
         color: white;
-        padding: 14px 16px;
+        padding: 8px 0px;
         background-color: inherit;
         font-family: inherit;
         margin: 0;
+        @include media-responsive(md) {
+          padding: 14px 16px;
+        }
         .fa {
           margin-left: 8px;
         }
@@ -155,9 +166,11 @@
 
     .profile {
       display: none;
+
       @include media-responsive(md) {
         display: block;
         color: $color-white;
+        font-size: $text-extra-headline-size;
       }
     }
 
@@ -171,6 +184,8 @@
 
     .profile_mobile {
       color: $color-white;
+      font-size: $text-extra-headline-size;
+      padding:5px 0px;
     }
 
     .icon {

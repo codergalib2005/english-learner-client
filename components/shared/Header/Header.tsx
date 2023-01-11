@@ -30,16 +30,7 @@ const Header: React.FC<headerType> = (props: headerType) => {
 
             <h3 className="logo_title_main">Learn Speak</h3>
           </div>
-          {/* <div
-            className={open ? "nav_links_mobile" : "nav_links"}
-            onClick={() => setOpen(!open)}
-          >
-            <a>Home</a>
-            <a>about</a>
-            <a>Services</a>
-            <a>Skills</a>
-            <a>contact</a>
-          </div> */}
+
           <nav className={open ? "nav_links_mobile" : "nav_links"}>
             <Link className="link" href="/">
               Home

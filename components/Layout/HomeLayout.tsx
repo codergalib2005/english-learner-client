@@ -8,7 +8,7 @@ type layoutChildren = {
   children: React.ReactNode;
 };
 const HomeLayout = ({ children }: layoutChildren) => {
-  const [show, setShow] = useState<boolean>(true);
+  const [show, setShow] = useState<boolean>(false);
 
   const [showRight, setShowRight] = useState<boolean>(false);
   return (
