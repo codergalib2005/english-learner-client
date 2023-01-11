@@ -1,5 +1,4 @@
 .footer_parent_class {
-  height: 200px;
   background: $color-maastricht-Blue;
   color: $color-white;
 
@@ -23,7 +22,10 @@
     }
     .custom_search {
       position: relative;
-      width: 400px;
+      width: 280px;
+      @include media-responsive(sm) {
+        width: 400px;
+      }
       margin: 0 auto;
       .custom_search_input {
         width: 100%;
@@ -51,17 +53,23 @@
       }
     }
     .footer_bottom {
-      display: flex;
-      margin-top: 20px;
-      justify-content: space-between;
-      padding: 0 10px;
+      margin-top: 0px;
+      padding: 0 1rem;
+      @include media-responsive(md) {
+        margin-top: 20px;
+        display: flex;
+        justify-content: space-between;
+      }
 
       & span {
         font-family: $text-normal;
         font-size: $text-small;
         font-weight: $font-100;
         letter-spacing: 2px;
-        margin: 10px 0;
+        margin: 0px;
+        @include media-responsive(md) {
+          margin: 10px 0;
+        }
         color: $color-chinese-silver;
       }
       .footer_bottom-icon {
