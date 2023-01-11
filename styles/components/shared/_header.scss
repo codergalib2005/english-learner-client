@@ -21,6 +21,17 @@
       &:hover {
         cursor: pointer;
       }
+      display: block;
+      @include media-responsive(md) {
+        display: none;
+      }
+    }
+    .logo_title_main {
+      display: none;
+      color: $color-bright-gray;
+      @include media-responsive(md) {
+        display: block;
+      }
     }
 
     .nav_links {
@@ -58,6 +69,7 @@
 
         color: $color-bright-gray;
       }
+
       @include media-responsive(md) {
         display: none;
         transition: all 1s ease-out;
@@ -92,6 +104,7 @@
       //   }
       // }
     }
+
     .dropdown {
       overflow: hidden;
       .dropbtn {
@@ -138,6 +151,26 @@
           color: white;
         }
       }
+    }
+
+    .profile {
+      display: none;
+      @include media-responsive(md) {
+        display: block;
+        color: $color-white;
+      }
+    }
+
+    .logo_title {
+      display: block;
+      color: $color-white;
+      @include media-responsive(md) {
+        display: none;
+      }
+    }
+
+    .profile_mobile {
+      color: $color-white;
     }
 
     .icon {

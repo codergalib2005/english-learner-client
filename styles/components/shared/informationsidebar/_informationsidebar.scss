@@ -4,6 +4,20 @@
   overflow-y: scroll;
   box-shadow: $default-box-shadow;
   text-align: justify;
+  .head_sidebar {
+    display: flex;
+    justify-content: space-between;
+
+    .close_menu {
+      border: 0;
+      font-size: $text-extra-headline-size;
+      cursor: pointer;
+      display: block;
+      @include media-responsive(md) {
+        display: none;
+      }
+    }
+  }
   // Scrollbar styles for Chrome, Safari and Opera
   &::-webkit-scrollbar {
     width: 5px;
@@ -20,6 +34,7 @@
   .information_link {
     text-decoration: none;
   }
+
   .information_btn {
     width: 100%;
     display: flex;

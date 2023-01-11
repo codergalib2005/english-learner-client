@@ -2,7 +2,7 @@ import Head from "next/head";
 import Link from "next/link";
 import React, { useState } from "react";
 import { TfiMenu } from "react-icons/tfi";
-import { RiCloseFill } from "react-icons/ri";
+import { CgProfile } from "react-icons/cg";
 
 type headerType = {
   show: boolean;
@@ -24,15 +24,11 @@ const Header: React.FC<headerType> = (props: headerType) => {
       <div className="header">
         <div className="header_content">
           <div>
-            {show ? (
-              <div onClick={() => setShow(!show)} className="menu_icon">
-                <a>&#9776;</a>
-              </div>
-            ) : (
-              <div onClick={() => setShow(!show)} className="menu_icon">
-                <a>&#9776;</a>
-              </div>
-            )}
+            <div onClick={() => setShow(true)} className="menu_icon">
+              <a>&#9776;</a>
+            </div>
+
+            <h3 className="logo_title_main">Learn Speak</h3>
           </div>
           {/* <div
             className={open ? "nav_links_mobile" : "nav_links"}
@@ -48,6 +44,7 @@ const Header: React.FC<headerType> = (props: headerType) => {
             <Link className="link" href="/">
               Home
             </Link>
+
             <div className="dropdown">
               <button className="dropbtn">
                 Services
@@ -81,7 +78,17 @@ const Header: React.FC<headerType> = (props: headerType) => {
             <a className="link" href="#">
               Contact
             </a>
+            {open && (
+              <h3 className="profile_mobile">
+                <CgProfile />
+              </h3>
+            )}
           </nav>
+          <h3 className="profile">
+            <CgProfile />
+          </h3>
+          <h3 className="logo_title">Learn Skill</h3>
+
           <div className="icon">
             <a onClick={() => setOpen(!open)}>&#9776; </a>
           </div>

@@ -9,6 +9,7 @@
   padding: 0 0px;
   max-width: 1920px;
   margin: 0 auto;
+  overflow: hidden;
   .home_layout_keyword_sidebar_0 {
     max-width: 0px;
     position: fixed;
@@ -16,9 +17,21 @@
     transition: all 200ms ease-in-out;
     z-index: 0;
   }
+  .show_for_md {
+    @include media-responsive(md) {
+      max-width: 250px;
+      z-index: 3;
+      position: fixed;
+      background-color: $color-bright-gray;
+      top: 0;
+      transition: all 200ms ease-in-out;
+    }
+  }
   .home_layout_keyword_sidebar {
-    max-width: 350px;
+    max-width: 250px;
+    z-index: 3;
     position: fixed;
+    background-color: $color-bright-gray;
     top: 0;
     transition: all 200ms ease-in-out;
   }
@@ -28,12 +41,16 @@
     transition: all 200ms ease-in-out;
     z-index: 2;
     margin-left: 0px;
+    @include media-responsive(md) {
+      margin-left: 250px;
+    }
     .content_layout_wrapper {
       // padding-bottom: 1rem;
       // padding: 10px;
       display: flex;
       flex-direction: row;
       justify-content: flex-start;
+      overflow-x: hidden;
       .content_box_parent_0 {
         margin-top: 0px;
         width: 100%;
@@ -51,23 +68,37 @@
         width: 100%;
         display: none;
         max-width: 200px;
-        @include media-responsive(md) {
+        @include media-responsive(sm) {
           display: block;
         }
         height: 100vh;
       }
     }
   }
+  .background {
+    background: $color-blueberry;
+  }
   .content_layout {
     transition: all 200ms ease-in-out;
     width: 100%;
-    margin-left: 350px;
+    margin-left: 0px;
+    @include media-responsive(md) {
+      margin-left: 250px;
+    }
+
     .content_layout_wrapper {
       // padding-bottom: 1rem;
       // padding: 10px;
       display: flex;
       flex-direction: row;
       justify-content: flex-start;
+      overflow: hidden;
+      // transform: skew(1deg, -1deg);
+      // transform: scale(0.5, 0.9);
+      // transform: perspective(900px) rotateY(-10deg) translate(0px, 50px);
+
+      transition: all 300ms ease-in;
+
       .content_box_parent {
         // margin-top: 1rem;
         width: 100%;
@@ -77,6 +108,10 @@
         width: 100%;
         max-width: 200px;
         height: 100vh;
+        display: none;
+        @include media-responsive(sm) {
+          display: block;
+        }
       }
     }
   }

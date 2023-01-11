@@ -8,21 +8,25 @@ type layoutChildren = {
   children: React.ReactNode;
 };
 const HomeLayout = ({ children }: layoutChildren) => {
-  console.log(children);
-  const [show, setShow] = useState<boolean>(false);
+  const [show, setShow] = useState<boolean>(true);
+
   const [showRight, setShowRight] = useState<boolean>(false);
   return (
     <div className="home_layout_main_wrapper">
       {/* Keyword Side or Left Side */}
       <div
         className={`${
-          show ? "home_layout_keyword_sidebar" : "home_layout_keyword_sidebar_0"
+          show
+            ? "home_layout_keyword_sidebar"
+            : "home_layout_keyword_sidebar_0 show_for_md"
         }`}
       >
-        <InformationSide />
+        <InformationSide setShow={setShow} show={show} />
       </div>
       {/* Main Content */}
-      <div className={`${show ? "content_layout" : "content_layout_0"}`}>
+      <div
+        className={`${show ? "content_layout background" : "content_layout_0"}`}
+      >
         <Header show={show} setShow={setShow} />
         <div className="content_layout_wrapper">
           {/* Content */}
