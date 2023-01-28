@@ -12,6 +12,8 @@ module.exports = {
       "res.cloudinary.com",
       "animals.png",
       "i.ibb.co",
+      "via.placeholder.com",
+      "i.dummyjson.com",
     ],
   },
 };

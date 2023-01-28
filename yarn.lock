@@ -199,6 +199,13 @@
     "@types/react" "*"
     "hoist-non-react-statics" "^3.3.0"
 
+"@types/jquery@^3.5.16":
+  "integrity" "sha512-bsI7y4ZgeMkmpG9OM710RRzDFp+w4P1RGiIt30C1mSBT+ExCleeh4HObwgArnDFELmRrOpXgSYN9VF1hj+f1lw=="
+  "resolved" "https://registry.npmjs.org/@types/jquery/-/jquery-3.5.16.tgz"
+  "version" "3.5.16"
+  dependencies:
+    "@types/sizzle" "*"
+
 "@types/node@18.11.9":
   "integrity" "sha512-CRpX21/kGdzjOpFsZSkcrXMGIBWMGNIHXXBVFSH+ggkftxg+XYP20TESbh+zFvFj3EQOl5byk0HTRn1IL6hbqg=="
   "resolved" "https://registry.npmjs.org/@types/node/-/node-18.11.9.tgz"
@@ -257,6 +264,11 @@
   "integrity" "sha512-hppQEBDmlwhFAXKJX2KnWLYu5yMfi91yazPb2l+lbJiwW+wdo1gNeRA+3RgNSO39WYX2euey41KEwnqesU2Jew=="
   "resolved" "https://registry.npmjs.org/@types/scheduler/-/scheduler-0.16.2.tgz"
   "version" "0.16.2"
+
+"@types/sizzle@*":
+  "integrity" "sha512-JYM8x9EGF163bEyhdJBpR2QX1R5naCJHC8ucJylJ3w9/CVBaskdQ8WqBf8MmQrd1kRvp/a4TS8HJ+bxzR7ZJYQ=="
+  "resolved" "https://registry.npmjs.org/@types/sizzle/-/sizzle-2.3.3.tgz"
+  "version" "2.3.3"
 
 "@types/use-sync-external-store@^0.0.3":
   "integrity" "sha512-EwmlvuaxPNej9+T4v5AuBPJa2x2UOJVdjCtDHgcDqitUeOtjnJKJ+apYjVcAoBEMjKW1VVFGZLUb5+qqa09XFA=="
@@ -502,6 +514,11 @@
   "resolved" "https://registry.npmjs.org/is-number/-/is-number-7.0.0.tgz"
   "version" "7.0.0"
 
+"jquery@^3.6.3":
+  "integrity" "sha512-bZ5Sy3YzKo9Fyc8wH2iIQK4JImJ6R0GWI9kL1/k7Z91ZBNgkRXE6U0JfHIizZbort8ZunhSI3jw9I6253ahKfg=="
+  "resolved" "https://registry.npmjs.org/jquery/-/jquery-3.6.3.tgz"
+  "version" "3.6.3"
+
 "js-tokens@^3.0.0 || ^4.0.0":
   "integrity" "sha512-RdJUflcE3cUzKiMqQgsCu06FPu9UdIJO0beYbPhHN4k6apgJtifcoCtT9bcxOpYBtpD2kCM6Sbzg4CausW/PKQ=="
   "resolved" "https://registry.npmjs.org/js-tokens/-/js-tokens-4.0.0.tgz"
@@ -571,6 +588,11 @@
   "integrity" "sha512-LZuoK/yjU3FvrxPjUXUlZ1bavCfBPqauA7fsNdwi+AVhRdyk2IzgP3JRnevvjzQ6fKHdUw8YISshf53FmpHrng=="
   "resolved" "https://registry.npmjs.org/ometa/-/ometa-0.2.2.tgz"
   "version" "0.2.2"
+
+"page-flip@latest":
+  "integrity" "sha512-96lQFUUz7r/LZzEUZJ3yBIMEKU9+m8HMFDzTvTdD6P7Ag/wXINjp9n0W7b4wanwnDbQETo4uNUoL3zMqpFxwGA=="
+  "resolved" "https://registry.npmjs.org/page-flip/-/page-flip-2.0.7.tgz"
+  "version" "2.0.7"
 
 "picocolors@^1.0.0":
   "integrity" "sha512-1fygroTLlHu66zi26VoTDv8yRgm0Fccecssto+MhsZ0D/DGW2sm8E8AjW7NU5VVTRt5GxbeZ5qBuJr+HyLYkjQ=="
@@ -1001,6 +1023,13 @@
   "integrity" "sha512-AIgl7u4sS9BTNCxX1xlaS5fPWay/Zml8Ho5LszXZKXrH1C/TiFsTQGmtl13UecQYO3mSF3HUzG2rrDf0sjEFmg=="
   "resolved" "https://registry.npmjs.org/react-otp-input/-/react-otp-input-2.4.0.tgz"
   "version" "2.4.0"
+
+"react-pageflip@^2.0.3":
+  "integrity" "sha512-k81mHhRvUM52y8jyzTCh5t4O0lepkLhp+XGSUzq2C3uD+iW99Cv0jfRlqFCjZbD5N3jKkIFr7/3giucoXKDP3Q=="
+  "resolved" "https://registry.npmjs.org/react-pageflip/-/react-pageflip-2.0.3.tgz"
+  "version" "2.0.3"
+  dependencies:
+    "page-flip" "latest"
 
 "react-paginate@^8.1.4":
   "integrity" "sha512-c3rxjcTEqeDQa6LqXifxLeFguY2qy2CHGRphVjHLFFMGfIHyaJ+v3bOvIlLYEeohwQ1q+cQpknjsqBVrkc/SNA=="

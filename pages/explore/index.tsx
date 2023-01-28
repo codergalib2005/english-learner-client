@@ -1,5 +1,5 @@
 import React, { useState } from "react";
-import Explore_cards from "../../components/explore/Explore_cards";
+import Explore from "../../components/explore/Explore";
 import Header from "../../components/shared/Header/Header";
 
 const index = () => {
@@ -8,7 +8,7 @@ const index = () => {
     <div>
       <Header show={show} setShow={setShow} />
 
-      <Explore_cards />
+      <Explore />
     </div>
   );
 };
