@@ -52,6 +52,9 @@ body {
 
 //Number Sign In
 
+// fruits page
+// @import "./components/fruits/fruitsCard";
+
 // Games page
 @import "./components/games/banner";
 @import "./components/games/cardCarousel";
@@ -65,4 +68,6 @@ body {
 // Explore page
 @import "./components/Explore_cards/explore_cards";
 @import "./components/Explore_cards/explore_card";
-@import "./components/Explore_cards/re_flip";
+
+// courses
+@import "./components/courses/book_read";
